@@ -1,0 +1,1 @@
+iniciarJogo('45', 'index.html');

@@ -1,0 +1,1 @@
+iniciarJogo('lanterna', 'q3.html');
