@@ -1,122 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Metal+Mania&family=New+Rocker&display=swap');
+
 :root {
   --bg: #08070e;
-  --surface: rgba(44, 10, 14, 0.95);
-  --panel: rgba(44, 10, 14, 0.95);
-  --surface-2: rgba(87, 11, 13, 0.88);
-  --panel-strong: rgba(87, 11, 13, 0.92);
+  --bg-alt: #13050e;
+  --panel: rgba(28, 8, 12, 0.95);
+  --panel-strong: rgba(55, 15, 20, 0.92);
   --text: #fdd5aa;
-  --muted: rgba(253, 213, 170, 0.78);
+  --muted: #d5a889;
   --accent: #a63416;
-  --accent-soft: #fdd5aa;
-  --border: rgba(253, 213, 170, 0.16);
-  --shadow: 0 30px 80px rgba(8, 7, 14, 0.55);
+  --accent-bright: #ff8b5d;
+  --border: rgba(253, 213, 170, 0.18);
+  --shadow: 0 28px 60px rgba(0, 0, 0, 0.45);
 }
 
 * {
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top, rgba(253, 213, 170, 0.16), transparent 25%),
-              radial-gradient(circle at bottom right, rgba(166, 52, 22, 0.16), transparent 22%),
-              var(--bg);
-  color: var(--text);
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg);
 }
 
 body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+              url("../media/diane-picchiottino-W_dfi26u2U0-unsplash.jpg") center / cover no-repeat;
   display: grid;
   place-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
 }
 
 main {
-  width: min(720px, 100%);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
-  border-radius: 32px;
+  width: min(760px, 100%);
+  background: linear-gradient(180deg, rgba(17, 5, 10, 0.6), rgba(34, 8, 14, 0.8));
+  border: 2px solid var(--border);
+  border-radius: 28px;
   box-shadow: var(--shadow);
-  padding: 3rem;
-  backdrop-filter: blur(14px);
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+main::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), transparent 30%);
+  pointer-events: none;
 }
 
 header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 h1 {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.4rem);
-  letter-spacing: 0.12em;
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--text);
+  color: var(--accent-bright);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35), 0 8px 30px rgba(166, 52, 22, 0.22);
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
-  margin: 1.8rem auto 0;
-  line-height: 1.75;
-  font-size: clamp(1rem, 1.75vw, 1.35rem);
-  max-width: 44rem;
+  margin: 1.25rem 0 0;
+  line-height: 1.7;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+  max-width: 48rem;
   color: var(--muted);
   font-family: 'Cardo', Georgia, serif;
+  letter-spacing: 0.02em;
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .enigma-card {
   margin-top: 2rem;
   padding: 2rem;
-  background: var(--panel);
-  border: 1px solid rgba(253, 213, 170, 0.12);
-  border-radius: 28px;
+  background: rgba(15, 5, 9, 0.96);
+  border: 1px dashed var(--accent);
+  border-radius: 22px;
+  position: relative;
+  z-index: 1;
+}
+
+.enigma-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(90deg, transparent 0 8px, rgba(255, 255, 255, 0.03) 8px 9px);
+  opacity: 0.18;
 }
 
 label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.65rem;
   font-size: 0.95rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
+  letter-spacing: 0.14em;
+  color: var(--accent);
 }
 
-#resposta {
+input,
+button {
+  font: inherit;
+}
+
+input {
   width: 100%;
-  padding: 1rem 1.1rem;
-  border-radius: 18px;
-  border: 1px solid rgba(253, 213, 170, 0.18);
-  background: rgba(12, 5, 11, 0.90);
+  padding: 1rem 1.2rem;
+  border-radius: 16px;
+  border: 2px solid rgba(253, 213, 170, 0.12);
+  background: rgba(22, 6, 11, 0.92);
   color: var(--text);
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.25s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#resposta:focus {
+input::placeholder {
+  color: rgba(253, 213, 170, 0.5);
+}
+
+input:focus {
   border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(166, 52, 22, 0.12);
   transform: translateY(-1px);
 }
 
 button {
   margin-top: 1.5rem;
   width: 100%;
-  padding: 1rem 1.2rem;
-  border: none;
+  padding: 1rem 1.25rem;
+  border: 2px solid var(--accent);
   border-radius: 999px;
-  background: linear-gradient(135deg, #a63416, #570b0d);
+  background: linear-gradient(135deg, rgba(166, 52, 22, 0.95), rgba(87, 11, 13, 0.95));
   color: var(--text);
   font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
-  box-shadow: 0 18px 40px rgba(166, 52, 22, 0.18);
+  box-shadow: 0 18px 36px rgba(166, 52, 22, 0.28);
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 button:hover {
   transform: translateY(-2px);
-  filter: brightness(1.06);
+  filter: brightness(1.08);
 }
 
 button:active {
@@ -128,22 +181,86 @@ footer {
   display: flex;
   justify-content: center;
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  position: relative;
+  z-index: 1;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 footer span {
-  padding: 0.3rem 0.75rem;
-  border: 1px solid rgba(253, 213, 170, 0.14);
+  padding: 0.35rem 0.85rem;
+  border: 2px solid rgba(253, 213, 170, 0.16);
   border-radius: 999px;
-  background: rgba(12, 5, 11, 0.75);
+  background: rgba(22, 6, 11, 0.8);
 }
 
-@media (max-width: 520px) {
+@media (max-width: 640px) {
+  body {
+    padding: 1rem;
+  }
+
   main {
-    padding: 2rem;
+    padding: 1.8rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
   }
 
   h2 {
     font-size: 1rem;
+    max-width: 100%;
   }
+
+  .enigma-card {
+    padding: 1.5rem;
+  }
+
+  button {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  body {
+    padding: 0.75rem;
+  }
+
+  main {
+    border-radius: 22px;
+    padding: 1.4rem;
+  }
+
+  h1 {
+    letter-spacing: 0.14em;
+  }
+
+  .enigma-card {
+    border-width: 1px;
+  }
+
+  input {
+    padding: 0.95rem 1rem;
+  }
+}
+
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
