@@ -1,70 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=New+Rocker&family=Underdog&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=New+Rocker&family=Underdog&display=swap");
 
 :root {
-  --bg: #08070e;
-  --bg-alt: #13050e;
-  --panel: rgba(28, 8, 12, 0.95);
-  --panel-strong: rgba(55, 15, 20, 0.92);
-  --text: #fdd5aa;
-  --muted: #d5a889;
-  --accent: #a63416;
-  --accent-bright: #ff8b5d;
-  --border: rgba(253, 213, 170, 0.18);
-  --shadow: 0 28px 60px rgba(0, 0, 0, 0.45);
+  --bg: #0f0f10;
+  --surface: #171719;
+  --surface-2: #202024;
+  --surface-3: #2a2a2e;
+  --text: #f5f1e8;
+  --muted: #b6afa3;
+  --accent: #ff5d2a;
+  --accent-2: #e32d1f;
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.52);
+  --radius: 22px;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--bg);
+  background: var(--bg);
 }
 
 body {
   margin: 0;
   min-height: 100vh;
   color: var(--text);
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url("../../media/diane-picchiottino-W_dfi26u2U0-unsplash.jpg") center / cover no-repeat;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../../media/diane-picchiottino-W_dfi26u2U0-unsplash.jpg") center /
+      cover no-repeat;
   display: grid;
   place-items: center;
   padding: 1.5rem;
 }
 
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 24px,
+    rgba(255, 255, 255, 0.02) 24px,
+    rgba(255, 255, 255, 0.02) 25px
+  );
   pointer-events: none;
+  opacity: 0.08;
 }
 
 main {
-  width: min(760px, 100%);
-  background: linear-gradient(180deg, rgba(17, 5, 10, 0.6), rgba(34, 8, 14, 0.8));
-  border: 2px solid var(--border);
-  border-radius: 28px;
+  width: min(860px, 100%);
+  background:
+    linear-gradient(180deg, rgba(23, 23, 25, 0.96), rgba(16, 16, 18, 0.98)),
+    linear-gradient(135deg, rgba(255, 93, 42, 0.04), transparent 35%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 2.5rem;
+  padding: 2rem;
   position: relative;
   overflow: hidden;
 }
 
-main::before {
-  content: '';
+main::before,
+main::after {
+  content: "";
   position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), transparent 30%);
+  border-radius: 999px;
   pointer-events: none;
 }
 
+main::before {
+  width: 200px;
+  height: 200px;
+  right: -50px;
+  top: -60px;
+  background: radial-gradient(circle, rgba(255, 93, 42, 0.16), transparent 70%);
+}
+
+main::after {
+  width: 140px;
+  height: 140px;
+  left: -40px;
+  bottom: -50px;
+  background: radial-gradient(circle, rgba(227, 45, 31, 0.12), transparent 70%);
+}
+
 header {
-  text-align: left;
-  margin-bottom: 2rem;
   position: relative;
   z-index: 1;
+  margin-bottom: 1.6rem;
 }
 
 h1 {
@@ -72,8 +108,10 @@ h1 {
   font-size: clamp(2rem, 6vw, 3.6rem);
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--accent-bright);
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35), 0 8px 30px rgba(166, 52, 22, 0.22);
+  color: var(--accent);
+  text-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.35),
+    0 8px 30px rgba(166, 52, 22, 0.22);
   font-family: "Metal Mania", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -85,7 +123,7 @@ h2 {
   font-size: clamp(1rem, 2.2vw, 1.35rem);
   max-width: 48rem;
   color: var(--muted);
-  font-family: 'Cardo', Georgia, serif;
+  font-family: "Cardo", Georgia, serif;
   letter-spacing: 0.02em;
   font-family: "New Rocker", system-ui;
   font-weight: 400;
@@ -93,31 +131,28 @@ h2 {
 }
 
 .enigma-card {
-  margin-top: 2rem;
-  padding: 2rem;
-  background: rgba(15, 5, 9, 0.96);
-  border: 1px dashed var(--accent);
-  border-radius: 22px;
   position: relative;
   z-index: 1;
-}
-
-.enigma-card::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: repeating-linear-gradient(90deg, transparent 0 8px, rgba(255, 255, 255, 0.03) 8px 9px);
-  opacity: 0.18;
+  padding: 1.5rem;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.015)
+    ),
+    linear-gradient(180deg, var(--surface), var(--surface-2));
+  border: 1px solid var(--border);
+  border-radius: 18px;
 }
 
 label {
   display: block;
   margin-bottom: 0.65rem;
-  font-size: 0.95rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.22em;
   color: var(--accent);
+  font-weight: 800;
 }
 
 input,
@@ -127,29 +162,32 @@ button {
 
 input {
   width: 100%;
-  padding: 1rem 1.2rem;
-  border-radius: 16px;
-  border: 2px solid rgba(253, 213, 170, 0.12);
-  background: rgba(22, 6, 11, 0.92);
+  padding: 1rem 1rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #111113;
   color: var(--text);
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
 }
 
 input::placeholder {
-  color: rgba(253, 213, 170, 0.5);
+  color: rgba(245, 241, 232, 0.45);
 }
 
 input:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 4px rgba(166, 52, 22, 0.12);
+  box-shadow: 0 0 0 4px rgba(255, 93, 42, 0.1);
   transform: translateY(-1px);
 }
 
 input.input-erro {
-  border-color: #ff6f61;
-  box-shadow: 0 0 0 4px rgba(255, 111, 97, 0.14);
+  border-color: #ff6d5a;
+  box-shadow: 0 0 0 4px rgba(255, 109, 90, 0.12);
 }
 
 .feedback-message {
@@ -170,14 +208,21 @@ button {
   padding: 1rem 1.25rem;
   border: 2px solid var(--accent);
   border-radius: 999px;
-  background: linear-gradient(135deg, rgba(166, 52, 22, 0.95), rgba(87, 11, 13, 0.95));
+  background: linear-gradient(
+    135deg,
+    rgba(166, 52, 22, 0.95),
+    rgba(87, 11, 13, 0.95)
+  );
   color: var(--text);
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
   box-shadow: 0 18px 36px rgba(166, 52, 22, 0.28);
   font-family: "Metal Mania", system-ui;
   font-weight: 400;
@@ -216,68 +261,28 @@ footer span {
 
 @media (max-width: 640px) {
   body {
-    padding: 1rem;
+    padding: 0.9rem;
   }
 
   main {
-    padding: 1.8rem;
-  }
-
-  h1 {
-    font-size: clamp(2rem, 8vw, 3rem);
-  }
-
-  h2 {
-    font-size: 1rem;
-    max-width: 100%;
-  }
-
-  .enigma-card {
     padding: 1.5rem;
   }
 
-  button {
-    padding: 1rem;
+  header h2 {
+    font-size: 1rem;
+  }
+
+  .enigma-card {
+    padding: 1.25rem;
   }
 }
 
 @media (max-width: 420px) {
-  body {
-    padding: 0.75rem;
+  header h1 {
+    letter-spacing: 0.1em;
   }
 
-  main {
-    border-radius: 22px;
-    padding: 1.4rem;
+  footer span {
+    font-size: 0.88rem;
   }
-
-  h1 {
-    letter-spacing: 0.14em;
-  }
-
-  .enigma-card {
-    border-width: 1px;
-  }
-
-  input {
-    padding: 0.95rem 1rem;
-  }
-}
-
-.metal-mania-regular {
-  font-family: "Metal Mania", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.new-rocker-regular {
-  font-family: "New Rocker", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.underdog-regular {
-  font-family: "Underdog", system-ui;
-  font-weight: 400;
-  font-style: normal;
 }
