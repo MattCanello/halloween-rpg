@@ -1,1 +1,1 @@
-iniciarJogo('45', 'index.html');
+iniciarJogo('45', 'success.html');
