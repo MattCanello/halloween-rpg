@@ -9,9 +9,9 @@ body {
   display: grid;
   place-items: center;
   background:
-    radial-gradient(circle at top, rgba(255, 0, 76, 0.12), transparent 18%),
-    linear-gradient(180deg, #12060d 0%, #030303 100%);
-  color: #fff;
+    radial-gradient(circle at top, rgba(255, 93, 42, 0.08), transparent 18%),
+    linear-gradient(180deg, #111114 0%, #0c0c0d 100%);
+  color: #f5f1e8;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
 }
@@ -26,11 +26,11 @@ body::after {
     90deg,
     transparent 0,
     transparent 48px,
-    rgba(255, 0, 76, 0.04) 48px,
-    rgba(255, 0, 76, 0.04) 50px
+    rgba(255, 93, 42, 0.04) 48px,
+    rgba(255, 93, 42, 0.04) 50px
   );
   pointer-events: none;
-  opacity: 0.4;
+  opacity: 0.35;
 }
 
 body::after {
@@ -38,10 +38,10 @@ body::after {
     0deg,
     transparent 0,
     transparent 24px,
-    rgba(0, 255, 170, 0.03) 24px,
-    rgba(0, 255, 170, 0.03) 26px
+    rgba(255, 255, 255, 0.03) 24px,
+    rgba(255, 255, 255, 0.03) 26px
   );
-  opacity: 0.2;
+  opacity: 0.12;
 }
 
 .panel {
@@ -49,14 +49,14 @@ body::after {
   width: min(900px, 92vw);
   padding: 56px 32px;
   text-align: center;
-  border: 2px solid #ff1f6d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   background:
-    linear-gradient(180deg, rgba(30, 6, 16, 0.96), rgba(8, 2, 4, 0.98)),
-    radial-gradient(circle at center, rgba(255, 31, 109, 0.12), transparent 26%);
+    linear-gradient(180deg, rgba(23, 23, 25, 0.96), rgba(16, 16, 18, 0.98)),
+    radial-gradient(circle at center, rgba(255, 93, 42, 0.08), transparent 28%);
   box-shadow:
-    0 0 0 1px rgba(0, 255, 170, 0.13),
-    0 0 40px rgba(255, 31, 109, 0.18),
-    inset 0 0 30px rgba(255, 31, 109, 0.08);
+    0 0 0 1px rgba(255, 255, 255, 0.04),
+    0 0 40px rgba(0, 0, 0, 0.45),
+    inset 0 0 30px rgba(255, 93, 42, 0.06);
   transform: rotate(-1deg);
 }
 
@@ -67,8 +67,8 @@ body::after {
   left: 12px;
   right: 12px;
   height: 6px;
-  background: linear-gradient(90deg, #ff1f6d, #00ffae, #ff1f6d);
-  opacity: 0.7;
+  background: linear-gradient(90deg, #ff5d2a, #e32d1f, #ff5d2a);
+  opacity: 0.78;
 }
 
 .panel::before {
@@ -85,9 +85,9 @@ body::after {
   font-size: 0.78rem;
   letter-spacing: 0.45em;
   text-transform: uppercase;
-  color: #00ffae;
-  border: 1px solid rgba(0, 255, 170, 0.5);
-  background: rgba(0, 255, 170, 0.06);
+  color: #ff5d2a;
+  border: 1px solid rgba(255, 93, 42, 0.5);
+  background: rgba(255, 93, 42, 0.06);
 }
 
 h1 {
@@ -96,24 +96,24 @@ h1 {
   line-height: 0.9;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #ff1f6d;
+  color: #ff5d2a;
   text-shadow:
     3px 3px 0 #0d0d0d,
-    0 0 10px rgba(255, 31, 109, 0.55),
-    0 0 22px rgba(255, 31, 109, 0.25);
+    0 0 10px rgba(255, 93, 42, 0.45),
+    0 0 22px rgba(255, 93, 42, 0.18);
 }
 
 p {
   margin-top: 18px;
   font-size: 1rem;
   line-height: 1.7;
-  color: #f8d7e6;
+  color: #b6afa3;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
 .accent {
-  color: #00ffae;
+  color: #ff5d2a;
   font-weight: 700;
 }
 
@@ -130,6 +130,6 @@ p {
   font-size: 0.72rem;
   letter-spacing: 0.35em;
   background: #161616;
-  border: 1px solid #ff1f6d;
-  color: #fff;
+  border: 1px solid rgba(255, 93, 42, 0.6);
+  color: #f5f1e8;
 }
