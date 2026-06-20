@@ -159,6 +159,7 @@ h2 {
   letter-spacing: 0.12em;
   color: var(--text);
   text-transform: uppercase;
+  padding: 0 1.55rem;
 }
 
 .success-card .note {
