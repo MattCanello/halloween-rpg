@@ -135,7 +135,7 @@
               Venha fantasiado para a festa mais rock'n'roll do ano!
             </p>
           </div>
-          <a class="button button-primary" href="#contato">Pontos de venda</a>
+          <button class="button button-primary" type="button" id="open-sales">Pontos de venda</button>
         </article>
       </div>
     </section>
@@ -160,10 +160,86 @@
     </section>
   </main>
 
+  <div class="modal" id="salesModal" aria-hidden="true" role="dialog" aria-labelledby="salesModalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" aria-label="Fechar janela de ingressos">×</button>
+      <p class="eyebrow">Ingressos</p>
+      <h2 id="salesModalTitle">Pontos de venda</h2>
+      <p class="modal-copy">
+        Veja abaixo os pontos de venda disponíveis para compra de ingressos.
+      </p>
+      <div class="sales-list">
+        <article class="sales-item sold-out">
+          <h3>Agência de Modelos Tribbiani</h3>
+          <p>Sétima Avenida, 47</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Bazar Dois por Três</h3>
+          <p>Rua Felizardo Furtado, 112</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Brechó Flea and Moth</h3>
+          <p>Rua Hipster Modernos, 780</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Casa de Apostas Bart & Burns</h3>
+          <p>Avenidas das Bets, 171</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Casa de Penhores Urubu</h3>
+          <p>Avenida Zeca Pilantra, 67</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Chapeação Muttley & Dick</h3>
+          <p>Via do Vigário Vigarista, 1968</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Madruga's Store</h3>
+          <p>Travessa do Aluguel Atrasado, 07</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>NFT e Crypto Lan House</h3>
+          <p>Rua Cemitério Digital, 24</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item available">
+          <h3>O Alfaiate do Rei</h3>
+          <p>Avenida Sete de Setembro, 1530</p>
+          <span>Disponível</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Ponto de Taxi do Carrara</h3>
+          <p>Rua Santo Agostinho, 2001</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Rascal's Life Couth</h3>
+          <p>Rua Otário Rocha, 1234</p>
+          <span>Esgotado</span>
+        </article>
+        <article class="sales-item sold-out">
+          <h3>Tabacaria Pedra Preciosa</h3>
+          <p>Rua Jovem Mística, 18</p>
+          <span>Esgotado</span>
+        </article>
+      </div>
+    </div>
+  </div>
+
   <footer class="footer">
     <div class="container">
       <p>Na Surdina Produções © 2026 — Cultura em estado de alerta.</p>
     </div>
   </footer>
+
+  <script src="./index.js" type="text/javascript"></script>
 </body>
 </html>

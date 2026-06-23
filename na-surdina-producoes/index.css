@@ -427,6 +427,133 @@ aside p {
   font-size: 0.9rem;
 }
 
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 100;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.modal-panel {
+  position: relative;
+  z-index: 1;
+  width: min(820px, 100%);
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02)),
+    linear-gradient(180deg, var(--surface), var(--surface-2));
+  box-shadow: var(--shadow);
+  padding: 2rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background: rgba(255, 93, 42, 0.1);
+  color: var(--text);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-panel h2 {
+  margin-top: 0.35rem;
+}
+
+.modal-copy {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  max-width: 55ch;
+}
+
+.sales-list {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.sales-item {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+}
+
+.sales-item h3 {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.sales-item p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.sales-item span {
+  display: inline-flex;
+  width: fit-content;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sales-item.sold-out {
+  opacity: 0.72;
+}
+
+.sales-item.sold-out span {
+  color: #d9a48d;
+  background: rgba(255, 93, 42, 0.08);
+  border: 1px solid rgba(255, 93, 42, 0.12);
+  cursor: not-allowed;
+}
+
+.sales-item.available span {
+  color: var(--accent);
+  background: rgba(255, 93, 42, 0.16);
+  border: 1px solid rgba(255, 93, 42, 0.2);
+  cursor: default;
+}
+
+@media (max-width: 640px) {
+  .modal {
+    padding: 1rem;
+  }
+
+  .modal-panel {
+    padding: 1.4rem;
+  }
+} 
+
 @media (max-width: 900px) {
   .hero-grid,
   .manifesto-grid,
