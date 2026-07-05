@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mountains+of+Christmas:wght@400;700&display=swap");
+
+body,
+article,
+header,
+section,
+h1,
+p,
+ol,
+ul,
+li,
+small,
+strong {
+  margin: 0;
+  padding: 0;
+  color: #eee;
+  font-family: "Elms Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+html {
+  background-color: #2d3f54;
+}
+
+article {
+  width: 90vw;
+  margin: 1rem auto;
+  display: block;
+  font-size: medium;
+}
+
+article > header > h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 0.1rem 0.1rem 1rem #111;
+  font-size: 4rem;
+}
+
+article > header > small {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: block;
+  font-size: small;
+}
+
+article > aside > ol {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+article > aside > ol > li {
+  display: inline-block;
+}
+
+article > section > ol {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 1rem auto;
+  transition: 1s ease;
+}
+
+article > section > ol > li {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  opacity: 1;
+  visibility: visible;
+  transition: 1s ease;
+}
+
+article > section > ol > li.hidden {
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 1s ease;
+}
+
+article > section > ol > li > strong {
+  display: block;
+  letter-spacing: -0.05rem;
+}
+
+article > section > ol > li.r1 {
+  background-color: #9151b8;
+  color: #111;
+}
+
+article > section > ol > li.r2 {
+  background-color: #ff57b0;
+  color: #111;
+}
+
+article > section > ol > li.r3 {
+  background-color: #f24f4f;
+  color: #111;
+}
+
+article > section > ol > li.r4 {
+  background-color: #ff8f5c;
+  color: #111;
+}
+
+article > section > ol > li.r1 > strong,
+article > section > ol > li.r2 > strong,
+article > section > ol > li.r3 > strong,
+article > section > ol > li.r4 > strong {
+  color: #111;
+  font-weight: 700;
+}
+
+article > section > ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 1rem auto;
+  transition: 1s ease;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+article > section > ul > li {
+  cursor: pointer;
+  background-color: #006ecf;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  opacity: 1;
+  visibility: visible;
+  transition: 1s ease;
+  height: 2rem;
+  line-height: 2;
+  flex: 1 1 calc(20% - 1rem);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+article > section > ul > li.selected {
+  background-color: #3c93fa;
+  color: white;
+  transition: background-color 1s ease;
+}
+
+article > section > ul > li.hidden {
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 1s ease;
+}
+
+article > footer {
+  margin-top: 2rem;
+}
+
+article > footer > p {
+  text-align: center;
+  font-weight: 100;
+}
+
+article > footer > p > small {
+  font-size: x-small;
+  color: #ccc;
+}

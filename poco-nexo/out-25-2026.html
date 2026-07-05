@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Poco Nexo</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./game.css" />
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>Poco Nexo</h1>
+            <small>Data: 25/10/2026</small>
+        </header>
+        <aside>
+            <ol></ol>
+        </aside>
+        <section>
+            <ol></ol>
+            <ul>
+                <li class="item r1">August</li>
+                <li class="item r1">Fortnight</li>
+                <li class="item r2">Cassandra</li>
+                <li class="item r3">Janice</li>
+                <li class="item r4">Karma</li>
+                <li class="item r3">Paolo</li>
+                <li class="item r1">Mastermind</li>
+                <li class="item r2">Carolina</li>
+                <li class="item r2">Paris</li>
+                <li class="item r4">Krishna</li>
+                <li class="item r3">Richard</li>
+                <li class="item r1">Peter</li>
+                <li class="item r4">Shiva</li>
+                <li class="item r2">Marjorie</li>
+                <li class="item r4">Dharma</li>
+                <li class="item r3">Carol</li>
+            </ul>
+        </section>
+        <footer style="display:none;">
+            <p>
+                <small>Copyright © 2026</small>
+            </p>
+        </footer>
+    </article>
+
+    <template id="r1">
+        <li class="answer r1 hidden">
+            <strong>Músicas de Taylor Swift</strong>
+            <span>August, Fortnight, Mastermind, Peter</span>
+        </li>
+    </template>
+
+    <template id="r2">
+        <li class="answer r2 hidden">
+            <strong>Nomes Femininos</strong>
+            <span>Cassandra, Carolina, Paris, Marjorie</span>
+        </li>
+    </template>
+
+    <template id="r3">
+        <li class="answer r3 hidden">
+            <strong>Interesses Amorosos de <em>Friends</em></strong>
+            <span>Carol, Janice, Paolo, Richard</span>
+        </li>
+    </template>
+
+    <template id="r4">
+        <li class="answer r4 hidden">
+            <strong>Hinduísmo</strong>
+            <span>Dharma, Karma, Krishna, Shiva</span>
+        </li>
+    </template>
+
+    <template id="failure">
+        <li class="failure">❌</li>
+    </template>
+
+    <template id="success">
+        <li class="success">✅</li>
+    </template>
+
+    <script src="./game.js?_=342342334"></script>
+    <script src="./gameStorage.js?_=6757567567"></script>
+
+    <script>
+        const gameStorage = new GameStorage("20261025");
+
+        $(document).ready(function () {
+            gameStorage.loadFromStorage();
+        });
+    </script>
+</body>
+
+</html>
