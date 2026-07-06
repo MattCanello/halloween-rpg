@@ -124,13 +124,13 @@ article > section > ol > li.r4 > strong {
 
 article > section > ul {
   list-style: none;
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(4, minmax(3.5rem, auto));
+  gap: 0.4rem;
   padding: 0;
   margin: 1rem auto;
   transition: 1s ease;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
 }
 
 article > section > ul > li {
@@ -143,12 +143,13 @@ article > section > ul > li {
   opacity: 1;
   visibility: visible;
   transition: 1s ease;
-  height: 10vh;
-  line-height: 10vh;
-  flex: 1 1 calc(20% - 1rem);
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: large;
+  letter-spacing: normal;
+  font-size: x-small;
 }
 
 article > section > ul > li.selected {
