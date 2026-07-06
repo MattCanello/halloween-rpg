@@ -133,7 +133,10 @@ article > section > ul {
   transition: 1s ease;
 }
 
-article > section > ul > li {
+article > section > ul > li,
+article > section > ul > li:focus,
+article > section > ul > li:active,
+article > section > ul > li:focus-visible {
   cursor: pointer;
   background-color: #006ecf;
   border-radius: 1rem;
@@ -150,6 +153,12 @@ article > section > ul > li {
   text-transform: uppercase;
   letter-spacing: normal;
   font-size: x-small;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 article > section > ul > li.selected {
