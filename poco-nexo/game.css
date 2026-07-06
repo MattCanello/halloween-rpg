@@ -138,15 +138,15 @@ article > section > ul > li:focus,
 article > section > ul > li:active,
 article > section > ul > li:focus-visible {
   cursor: pointer;
-  background-color: #006ecf;
-  border-radius: 1rem;
+  background-color: #00549d;
+  border-radius: 0.5rem;
   padding: 1rem;
   text-align: center;
   color: white;
   opacity: 1;
   visibility: visible;
   transition: 1s ease;
-  min-height: 3.5rem;
+  min-height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,7 +162,7 @@ article > section > ul > li:focus-visible {
 }
 
 article > section > ul > li.selected {
-  background-color: #3c93fa;
+  background-color: #006ecf;
   color: white;
   transition: background-color 1s ease;
 }
