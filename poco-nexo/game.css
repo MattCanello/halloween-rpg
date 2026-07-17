@@ -82,6 +82,7 @@ article > section > ol > li {
   opacity: 1;
   visibility: visible;
   transition: 1s ease;
+  box-shadow: 0rem 0.1rem 0.1rem #111111aa;
 }
 
 article > section > ol > li.hidden {
@@ -161,6 +162,7 @@ article > section > ul > li:focus-visible {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
+  box-shadow: 0rem 0.1rem 0.1rem #111111aa;
 }
 
 article > section > ul > li.selected {
