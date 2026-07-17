@@ -189,3 +189,31 @@ article > footer > p > small {
   font-size: x-small;
   color: #ccc;
 }
+
+/* Horizontal (Mobile) */
+@media only screen and (orientation: landscape) {
+  article > section > ol > li {
+    font-size: medium;
+  }
+
+  article > section > ul > li,
+  article > section > ul > li:focus,
+  article > section > ul > li:active,
+  article > section > ul > li:focus-visible {
+    font-size: small;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  article > section > ol > li {
+    font-size: medium;
+  }
+
+  article > section > ul > li,
+  article > section > ul > li:focus,
+  article > section > ul > li:active,
+  article > section > ul > li:focus-visible {
+    font-size: medium;
+  }
+}
