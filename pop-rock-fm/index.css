@@ -207,6 +207,10 @@ section {
   gap: 1rem;
 }
 
+.programa p:last-of-type {
+  margin-top: 0;
+}
+
 .highlight {
   padding: 1rem 1.25rem;
   border-left: 4px solid var(--accent);
