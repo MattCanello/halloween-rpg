@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Poco Nexo</title>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./game.css" />
+    <link rel="stylesheet" href="./game-out-31-2026.css" />
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.png" />
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>Poco Nexo</h1>
+            <small>Data: 31/10/2026</small>
+        </header>
+        <aside>
+            <ol></ol>
+        </aside>
+        <section>
+            <ol></ol>
+            <ul>
+                <li class="item r1">Faca</li>
+                <li class="item r1">Telefonema</li>
+                <li class="item r2">Fazenda</li>
+                <li class="item r3">Motel</li>
+                <li class="item r4">Adolescentes</li>
+                <li class="item r3">Chuveiro</li>
+                <li class="item r1">Máscara</li>
+                <li class="item r2">Serra elétrica</li>
+                <li class="item r2">Estrada deserta</li>
+                <li class="item r4">Acampamento</li>
+                <li class="item r3">Dupla personalidade</li>
+                <li class="item r1">Sangue</li>
+                <li class="item r4">Monitores</li>
+                <li class="item r2">Pele humana</li>
+                <li class="item r4">Lago</li>
+                <li class="item r3">Mãe superprotetora</li>
+            </ul>
+        </section>
+        <footer style="display:none;">
+            <p>
+                <small>Copyright © 2026</small>
+            </p>
+        </footer>
+    </article>
+
+    <template id="r1">
+        <li class="answer r1 hidden">
+            <strong>😱 Pânico / <em>Ghostface</em></strong>
+            <span>Faca, Máscara, Sangue, Telefonema</span>
+        </li>
+    </template>
+
+    <template id="r2">
+        <li class="answer r2 hidden">
+            <strong>🪚 Massacre da Serra Elétrica / <em>Leatherface</em></strong>
+            <span>Estrada Deserta, Fazenda, Pele Humana, Serra Elétrica</span>
+        </li>
+    </template>
+
+    <template id="r3">
+        <li class="answer r3 hidden">
+            <strong>😵 Psicose / <em>Norman Bates</em></strong>
+            <span>Chuveiro, Dupla Personalidade, Mãe superprotetora, Motel.</span>
+        </li>
+    </template>
+
+    <template id="r4">
+        <li class="answer r4 hidden">
+            <strong>🐈‍⬛ Sexta-feira 13 / <em>Jason Voorhees</em></strong>
+            <span>Acampamento, Adolescentes, Lago, Monitores</span>
+        </li>
+    </template>
+
+    <template id="failure">
+        <li class="failure">❌</li>
+    </template>
+
+    <template id="success">
+        <li class="success">✅</li>
+    </template>
+
+    <script src="./game.js?_=5946859648"></script>
+    <script src="./gameStorage.js?_=6757567567"></script>
+
+    <script>
+        const gameStorage = new GameStorage("20261031");
+
+        $(document).ready(function () {
+            gameStorage.loadFromStorage();
+        });
+    </script>
+</body>
+
+</html>

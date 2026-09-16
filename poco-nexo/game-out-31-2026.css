@@ -1,0 +1,32 @@
+body,
+html {
+  background-color: #330000;
+}
+
+article > section > ol > li.r1 {
+  background-color: #C62828;
+}
+
+article > section > ol > li.r1,
+article > section > ol > li.r1 > strong {
+  color: #eee;
+}
+
+article > section > ol > li.r2 {
+  background-color: #C49A3A;
+  color: #111;
+}
+
+article > section > ol > li.r3 {
+  background-color: #BDBDBD;
+  color: #111;
+}
+
+article > section > ol > li.r4 {
+  background-color: #2E7D32;
+}
+
+article > section > ol > li.r4,
+article > section > ol > li.r4 > strong {
+  color: #eee;
+}
