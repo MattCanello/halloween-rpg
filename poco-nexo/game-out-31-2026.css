@@ -3,6 +3,17 @@ html {
   background-color: #330000;
 }
 
+article > section > ul > li,
+article > section > ul > li:focus,
+article > section > ul > li:active,
+article > section > ul > li:focus-visible {
+  background-color: #7c0000;
+}
+
+article > section > ul > li.selected {
+  background-color: #580101;
+}
+
 article > section > ol > li.r1 {
   background-color: #C62828;
 }
