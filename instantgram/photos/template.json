@@ -1,0 +1,42 @@
+[
+  {
+    "src": "../../media/Copilot_20260609_225154.png",
+    "alt": "Abóbora decorativa iluminada, com uma faca apoiada à frente",
+    "caption": "A tradição da família. Todo ano, sem falta.",
+    "date": "31 de outubro de 2025",
+    "dateISO": "2025-10-31",
+    "comments": [
+      { "name": "luiza.moraes", "text": "Você ainda guarda isso na sala?" },
+      {
+        "name": "helena.duarte",
+        "text": "Minha avó dizia que dava azar jogar fora."
+      },
+      {
+        "name": "caio.ribeiro",
+        "text": "Pensei que essa casa estivesse vazia."
+      }
+    ]
+  },
+  {
+    "src": "../../media/diane-picchiottino-W_dfi26u2U0-unsplash.jpg",
+    "alt": "Público de um show visto sob uma intensa luz vermelha",
+    "caption": "A última música foi a melhor. Ou talvez eu só não lembre das outras.",
+    "date": "12 de outubro de 2025",
+    "dateISO": "2025-10-12",
+    "comments": [
+      { "name": "luiza.moraes", "text": "Você saiu antes do bis." },
+      { "name": "helena.duarte", "text": "Tinha alguém me esperando lá fora." }
+    ]
+  },
+  {
+    "src": "../../media/kovid-rathee-rJYT9I7Q7-M-unsplash.jpg",
+    "alt": "Mãos erguidas diante do palco durante um show iluminado em dourado",
+    "caption": "Gosto de ficar perto da saída. Costume antigo.",
+    "date": "28 de setembro de 2025",
+    "dateISO": "2025-09-28",
+    "comments": [
+      { "name": "caio.ribeiro", "text": "A gente se vê no próximo?" },
+      { "name": "helena.duarte", "text": "Se eu estiver por aqui." }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "username": "kalil.belmonte",
+  "profilePicture": {
+    "src": "../media/kalil.belmonte/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Kalil Belmonte",
+    "bio": "",
+    "place": "",
+    "stats": {
+      "publishedPhotos": 7,
+      "followers": 30,
+      "following": 392
+    }
+  }
+}

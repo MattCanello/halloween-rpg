@@ -1,0 +1,17 @@
+{
+  "username": "helena.duarte",
+  "profilePicture": {
+    "src": "../../media/Copilot_20260609_225154.png",
+    "alt": "Abóbora iluminada com um desenho de rosto assustador"
+  },
+  "profile": {
+    "name": "Helena Duarte",
+    "bio": "Fotografia, música e noites que parecem durar mais do que deveriam.",
+    "place": "São Paulo, SP",
+    "stats": {
+      "publishedPhotos": 18,
+      "followers": 1284,
+      "following": 392
+    }
+  }
+}
