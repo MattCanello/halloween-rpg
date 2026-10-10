@@ -1,0 +1,17 @@
+{
+  "username": "prof.kornelio",
+  "profilePicture": {
+    "src": "../media/prof.kornelio/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Prof. Kornélio",
+    "bio": "Professor de Ensino Médio.",
+    "place": "Porto Alegre/RS",
+    "stats": {
+      "publishedPhotos": 2,
+      "followers": 3059,
+      "following": 4969
+    }
+  }
+}
