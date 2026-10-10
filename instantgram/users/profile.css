@@ -424,6 +424,12 @@ main {
   margin: 0;
 }
 
+.comment a {
+  color: var(--ink);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
 .comment time {
   display: block;
   margin-top: 3px;

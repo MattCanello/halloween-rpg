@@ -1,3 +1,7 @@
+const existingProfiles = [
+    'kalil.belmonte', 'prof.kornelio'
+];
+
 const dialog = document.querySelector(".photo-dialog");
 const dialogImage = document.querySelector(".dialog-image");
 const caption = document.querySelector(".caption");
@@ -182,8 +186,16 @@ function renderPhoto(index) {
         const item = document.createElement("li");
         item.className = "comment";
         const name = document.createElement("strong");
-        name.textContent = comment.name;
+        const profileLink = document.createElement("a");
+        profileLink.textContent = comment.name;
+        if (existingProfiles.includes(comment.name)) {
+            profileLink.href = `./${encodeURIComponent(comment.name)}.html`;
+        } else {
+            profileLink.href = "#";
+            profileLink.setAttribute("aria-disabled", "true");
+        }
         const text = document.createElement("p");
+        name.append(profileLink);
         text.append(name, document.createTextNode(` ${comment.text}`));
         item.append(text);
         comments.append(item);
@@ -196,6 +208,11 @@ photoGrid.addEventListener("click", (event) => {
 
     renderPhoto(Number(button.dataset.photo));
     dialog.showModal();
+});
+
+comments.addEventListener("click", (event) => {
+    const unavailableProfile = event.target.closest('a[aria-disabled="true"]');
+    if (unavailableProfile) event.preventDefault();
 });
 
 feedStatus.addEventListener("click", (event) => {
