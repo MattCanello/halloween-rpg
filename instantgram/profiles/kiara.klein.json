@@ -1,0 +1,17 @@
+{
+  "username": "kiara.klein",
+  "profilePicture": {
+    "src": "../media/kiara.klein/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Kiara Klein",
+    "bio": "",
+    "place": "",
+    "stats": {
+      "publishedPhotos": 9,
+      "followers": 1920,
+      "following": 1130
+    }
+  }
+}
