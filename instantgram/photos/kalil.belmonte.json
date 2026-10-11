@@ -1,7 +1,7 @@
 [
   {
     "src": "../media/0006.png",
-    "alt": "",
+    "alt": "Retrato dramático de uma pessoa com expressão de raiva e indignação.",
     "caption": "VADIA!!! FILHA DA PUTA!!! EU VOU TE RASGAR EM MIL PEDAÇOS E TE FAZER PAGAR POR TUDO QUE VOCÊ FEZ COMIGO, PUTA DESGRAÇADA!!!",
     "date": "27 de outubro de 2026",
     "dateISO": "2026-10-27",
@@ -9,7 +9,7 @@
   },
   {
     "src": "../media/0007.png",
-    "alt": "",
+    "alt": "Pessoa em pose indignada, representando uma situação frustrante e bem-humorada.",
     "caption": "Isso o viadinho do teu namorado não faz, né?!",
     "date": "22 de outubro de 2026",
     "dateISO": "2026-10-22",
@@ -17,7 +17,7 @@
   },
   {
     "src": "../media/0009.png",
-    "alt": "",
+    "alt": "Pessoa deitada em um sofá.",
     "caption": "A merda do computador estragou de novo... isso significa uma coisa: hora de viajar!",
     "date": "19 de outubro de 2026",
     "dateISO": "2026-10-19",
@@ -25,18 +25,24 @@
   },
   {
     "src": "../media/0003.png",
-    "alt": "",
+    "alt": "Grupo de estudantes celebrando a passagem do ensino médio, radiantes e unidos.",
     "caption": "Do terceirão para a vida!",
     "date": "30 de novembro de 2024",
     "dateISO": "2024-11-30",
     "comments": [
-      { "name": "luiza.moraes", "text": "🙂" },
-      { "name": "tulio.dias", "text": "Bora Terceirão #2!" }
+      {
+        "name": "luiza.moraes",
+        "text": "🙂"
+      },
+      {
+        "name": "tulio.dias",
+        "text": "Bora Terceirão #2!"
+      }
     ]
   },
   {
     "src": "../media/0004.png",
-    "alt": "",
+    "alt": "Estudante sorrindo com materiais de arquitetura, imaginando seu futuro acadêmico.",
     "caption": "Se vai ser arquitetura ou engenharia, eu não sei, mas acho que vou ser feliz em qualquer uma das duas.",
     "date": "14 de junho de 2023",
     "dateISO": "2023-06-14",
@@ -49,7 +55,7 @@
   },
   {
     "src": "../media/0008.png",
-    "alt": "",
+    "alt": "Envelope e carta de conquista de bolsa de estudos, representando uma grande oportunidade acadêmica.",
     "caption": "Muito feliz em ter conseguido a bolsa de estudos no Colégio Nostradamus pra cursar o ensino médio! Chega de passar fome em escola pública! 😅",
     "date": "07 de janeiro de 2022",
     "dateISO": "2022-01-07",
@@ -62,7 +68,7 @@
   },
   {
     "src": "../media/0005.png",
-    "alt": "",
+    "alt": "Pessoa focada na TV assistindo anime, em um momento de pura diversão.",
     "caption": "Se tem uma coisa que eu nunca vou deixar de gostar é de assistir Dragon Ball Z!",
     "date": "29 de novembro de 2022",
     "dateISO": "2022-11-29",
@@ -70,6 +76,7 @@
       {
         "name": "enzzzo2006",
         "text": "Nunca vai superar One Piece 😎"
-      }]
+      }
+    ]
   }
 ]
