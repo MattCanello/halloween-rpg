@@ -5,7 +5,9 @@
     "caption": "Dia de prestigiar Papis, o Homem de Negócios do Ano!",
     "date": "04 de outubro de 2026",
     "dateISO": "2026-10-04",
-    "comments": []
+    "comments": [
+       { "name": "luiza.moraes", "text": "Família linda!" }
+    ]
   },
   {
     "src": "../media/2003.png",
@@ -13,7 +15,9 @@
     "caption": "Só umas comprinhas básicas, né, meninas? 💅",
     "date": "04 de março de 2026",
     "dateISO": "2026-03-04",
-    "comments": []
+    "comments": [
+       { "name": "luiza.moraes", "text": "Essencial!!!" }
+    ]
   },
   {
     "src": "../media/2009.png",
@@ -21,7 +25,9 @@
     "caption": "Vai um vinho aí, meninas? 🍷",
     "date": "26 de julho de 2026",
     "dateISO": "2026-07-26",
-    "comments": []
+    "comments": [
+       { "name": "tulio.dias", "text": "Brindar comigo não quer, né, gata?!" }
+    ]
   },
   {
     "src": "../media/2004.png",
@@ -29,7 +35,9 @@
     "caption": "Amo essa foto. Me lembra de quando brincávamos de hora do chá quando eu era criança 🥰",
     "date": "26 de dezembro de 2025",
     "dateISO": "2025-12-26",
-    "comments": []
+    "comments": [
+       { "name": "luiza.moraes", "text": "Fofas!" }
+    ]
   },
   {
     "src": "../media/2002.png",
@@ -37,7 +45,10 @@
     "caption": "Amo meu irmãozinho!",
     "date": "04 de dezembro de 2025",
     "dateISO": "2025-12-04",
-    "comments": []
+    "comments": [
+       { "name": "kevin.klein", "text": "Também te amo, maninha!" },
+       { "name": "luiza.moraes", "text": "Lindos!" }
+    ]
   },
   {
     "src": "../media/2010.png",
@@ -45,7 +56,9 @@
     "caption": "Ah, como eu adoro viajar!",
     "date": "15 de setembro de 2025",
     "dateISO": "2025-09-15",
-    "comments": []
+    "comments": [
+       { "name": "luiza.moraes", "text": "Linda! Por onde você anda?!" }
+    ]
   },
   {
     "src": "../media/2008.png",
@@ -53,7 +66,9 @@
     "caption": "Paris continua linda",
     "date": "18 de maio de 2025",
     "dateISO": "2025-05-18",
-    "comments": []
+    "comments": [
+       { "name": "tulio.dias", "text": "Não tão linda quanto você, gata 😜" }
+    ]
   },
   {
     "src": "../media/2007.png",
@@ -61,7 +76,10 @@
     "caption": "Meu vestido para a formatura do ensino médio do Nostradamus ficou lindo, né? Pode dizer que eu arrasei, meninas! 😎",
     "date": "17 de dezembro de 2024",
     "dateISO": "2024-12-17",
-    "comments": []
+    "comments": [
+       { "name": "luiza.moraes", "text": "Arrasou!" },
+       { "name": "tulio.dias", "text": "Ui, ui, ui, que delícia!" }
+    ]
   },
   {
     "src": "../media/2006.png",
@@ -69,7 +87,11 @@
     "caption": "Enfirm, formada. Quem tem amigas tem tudo, não é mesmo, Kefs? 😘",
     "date": "10 de dezembro de 2024",
     "dateISO": "2024-12-10",
-    "comments": []
+    "comments": [
+       { "name": "a.kefera", "text": "😘" },
+       { "name": "luiza.moraes", "text": "Lindos!" },
+       { "name": "tulio.dias", "text": "Pô, festinha exclusiva agora, é?!" }
+    ]
   },
   {
     "src": "../media/2005.png",
@@ -77,6 +99,9 @@
     "caption": "Ai, que inferno! Meu pai não vai me dar um carro de presente se eu não passar de ano. Ai, olha, meninas, ninguém merece...",
     "date": "11 de outubro de 2024",
     "dateISO": "2024-10-11",
-    "comments": []
+    "comments": [
+       { "name": "luiza.moraes", "text": "Ai, amiga..." },
+       { "name": "tulio.dias", "text": "Não tem problema, gata, eu te levo pra onde você quiser 😜" }
+    ]
   }
 ]
