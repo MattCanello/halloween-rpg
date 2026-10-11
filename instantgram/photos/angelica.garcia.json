@@ -1,0 +1,34 @@
+[
+  {
+    "src": "../media/9002.png",
+    "alt": "",
+    "caption": "Personagens do meu livro de memórias que um dia rasguei do meu cartaz",
+    "date": "12 de outubro de 2026",
+    "dateISO": "2026-10-12",
+    "comments": []
+  },
+  {
+    "src": "../media/9001.png",
+    "alt": "",
+    "caption": "Mesmo que seja estranho, seja você",
+    "date": "22 de setembro de 2026",
+    "dateISO": "2026-09-22",
+    "comments": []
+  },
+  {
+    "src": "../media/9003.png",
+    "alt": "",
+    "caption": "E eu achando que tinha me libertado, mas lá vêm eles novamente reinstalar o sistema",
+    "date": "21 de setembro de 2026",
+    "dateISO": "2026-09-21",
+    "comments": []
+  },
+  {
+    "src": "../media/9004.png",
+    "alt": "",
+    "caption": "São tantas marcas que já fazem parte do que eu sou agora",
+    "date": "14 de agosto de 2026",
+    "dateISO": "2026-08-14",
+    "comments": []
+  }
+]

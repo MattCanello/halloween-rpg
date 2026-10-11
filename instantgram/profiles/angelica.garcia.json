@@ -1,0 +1,17 @@
+{
+  "username": "angelica.garcia",
+  "profilePicture": {
+    "src": "../media/angelica.garcia/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Angélica Garcia",
+    "bio": "Artista, compositora, DJ e radialista.",
+    "place": "Porto Alegre, RS",
+    "stats": {
+      "publishedPhotos": 4,
+      "followers": 3130,
+      "following": 9920
+    }
+  }
+}
