@@ -1,0 +1,17 @@
+{
+  "username": "a.kefera",
+  "profilePicture": {
+    "src": "../media/a.kefera/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Kéfera",
+    "bio": "",
+    "place": "",
+    "stats": {
+      "publishedPhotos": 1,
+      "followers": 301,
+      "following": 492
+    }
+  }
+}
