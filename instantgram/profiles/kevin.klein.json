@@ -1,0 +1,17 @@
+{
+  "username": "kevin.klein",
+  "profilePicture": {
+    "src": "../media/kevin.klein/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Kevin Klein",
+    "bio": "23 anos. Academia, viagens e negócios. A vida é uma aventura!",
+    "place": "Porto Alegre, RS",
+    "stats": {
+      "publishedPhotos": 10,
+      "followers": 821,
+      "following": 830
+    }
+  }
+}

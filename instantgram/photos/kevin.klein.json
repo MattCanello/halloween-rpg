@@ -1,0 +1,111 @@
+[
+  {
+    "src": "../media/3001.png",
+    "alt": "Imagem de duas mãos entrelaçadas.",
+    "caption": "K & K 💖",
+    "date": "01 de outubro de 2026",
+    "dateISO": "2026-10-01",
+    "comments": [
+       { "name": "a.kefera", "text": "😘" },
+       { "name": "kiara.klein", "text": "Gente, para tudo! Minha amiga e meu irmãozinho?! Amei!" },
+       { "name": "sanches.monica", "text": "E vai apresentar pra galera quando, hein?!" }
+    ]
+  },
+  {
+    "src": "../media/3002.png",
+    "alt": "Jovem rapaz em estande de tiro com uma arma de fogo, olhando para trás por sobre o ombro.",
+    "caption": "Tiro, porrada e bomba!",
+    "date": "11 de setembro de 2026",
+    "dateISO": "2026-09-11",
+    "comments": [
+       { "name": "doug_sampaio", "text": "CABUM! 💥" }
+    ]
+  },
+  {
+    "src": "../media/3010.png",
+    "alt": "Dois homens de terno, um mais velho e outro mais jovem, olhando um para o outro.",
+    "caption": "Aos negócios",
+    "date": "15 de maio de 2026",
+    "dateISO": "2026-05-15",
+    "comments": [
+       { "name": "doug_sampaio", "text": "Olha o cara... todo arrumadinho!" },
+       { "name": "kiara.klein", "text": "Minha família é linda, né, gente?!" },
+       { "name": "sanches.monica", "text": "Ficou um gato nesse terno, Kevin!" }
+    ]
+  },
+  {
+    "src": "../media/3004.png",
+    "alt": "Dois jovens malhando na academia.",
+    "caption": "Bora! 💪",
+    "date": "17 de março de 2025",
+    "dateISO": "2025-03-17",
+    "comments": [
+       { "name": "doug_sampaio", "text": "BORA! 💪" },
+       { "name": "kiara.klein", "text": "Gatooos!" }
+    ]
+  },
+  {
+    "src": "../media/3003.png",
+    "alt": "Jovem rapaz segurando uma arma de fogo em um estande de tiro, olhando para a câmera.",
+    "caption": "😎",
+    "date": "28 de julho de 2025",
+    "dateISO": "2025-07-28",
+    "comments": [
+       { "name": "doug_sampaio", "text": "🔫🔫🔫" }
+    ]
+  },
+  {
+    "src": "../media/3007.png",
+    "alt": "Jovem na academia contraindo os músculos do braço.",
+    "caption": "",
+    "date": "20 de outubro de 2024",
+    "dateISO": "2024-10-20",
+    "comments": [
+       { "name": "doug_sampaio", "text": "Vai ter que se esforçar mais pra me superar, frango!" }
+    ]
+  },
+  {
+    "src": "../media/3008.png",
+    "alt": "Grupo de jovens em uma viagem de carro.",
+    "caption": "",
+    "date": "16 de fevereiro de 2024",
+    "dateISO": "2024-02-16",
+    "comments": [
+       { "name": "doug_sampaio", "text": "Foto de eu trocando a porra do pneu no meio do nada você não posta, né?!" },
+       { "name": "sanches.monica", "text": "Amei a viagem!" }
+    ]
+  },
+  {
+    "src": "../media/3005.png",
+    "alt": "Jovem malhando na academia.",
+    "caption": "Vem monstro, porra!!",
+    "date": "20 de novembro de 2023",
+    "dateISO": "2023-11-20",
+    "comments": [
+       { "name": "doug_sampaio", "text": "BORA, BIL!" }
+    ]
+  },
+  {
+    "src": "../media/3011.png",
+    "alt": "Dois jovens fazendo pose na torre de Pisa na Itália.",
+    "caption": "Essa torre é pesada! 😅",
+    "date": "11 de setembro de 2023",
+    "dateISO": "2023-09-11",
+    "comments": [
+       { "name": "doug_sampaio", "text": "Segura essa! HAHAHAHA" },
+       { "name": "kiara.klein", "text": "Roubaram suas roupas na viagem, maninho? Tá vestido que nem um mendigo! 🤣" },
+       { "name": "sanches.monica", "text": "MEU DEUS! 🤣" }
+    ]
+  },
+  {
+    "src": "../media/3009.png",
+    "alt": "Grupo de jovens no rooftop de um prédio, com a cidade do Rio de Janeiro ao fundo.",
+    "caption": "Essa viagem do terceirão Nostradamus vai ficar na memória",
+    "date": "18 de dezembro de 2022",
+    "dateISO": "2022-12-18",
+    "comments": [
+       { "name": "doug_sampaio", "text": "Tamo junto pra sempre, meu mano Kevin!" },
+       { "name": "sanches.monica", "text": "Já sinto saudades, gente 🥹" }
+    ]
+  }
+]
