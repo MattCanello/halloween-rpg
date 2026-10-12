@@ -1,24 +1,18 @@
 [
   {
-    "src": "../media/3001.png",
-    "alt": "Imagem de duas mãos entrelaçadas.",
-    "caption": "K & K 💖",
-    "date": "01 de outubro de 2026",
-    "dateISO": "2026-10-01",
-    "comments": [
-       { "name": "a.kefera", "text": "😘" },
-       { "name": "kiara.klein", "text": "Gente, para tudo! Minha amiga e meu irmãozinho?! Amei!" },
-       { "name": "sanches.monica", "text": "E vai apresentar pra galera quando, hein?!" }
-    ]
-  },
-  {
     "src": "../media/3002.png",
-    "alt": "Jovem rapaz em estande de tiro com uma arma de fogo, olhando para trás por sobre o ombro.",
+    "alt": "Jovem em estande de tiro com uma arma de fogo, olhando para trás por sobre o ombro.",
     "caption": "Tiro, porrada e bomba!",
     "date": "11 de setembro de 2026",
     "dateISO": "2026-09-11",
     "comments": [
-       { "name": "doug_sampaio", "text": "CABUM! 💥" }
+       { "name": "doug_sampaio", "text": "CABUM! 💥" },
+       { "name": "brunaa.ramos", "text": "Confiança assim devia vir com placa aviso" },
+       { "name": "leo_freitas", "text": "Essa mira toda e ainda erra meus sinais?" },
+       { "name": "bia.moraes", "text": "A pose é de quem acertou o alvo ou de quem sabe que é um gato?" },
+       { "name": "rafael.silva", "text": "Doug comenta rápido nessas fotos, né?" },
+       { "name": "gui.caiado", "text": "Pô! Me chama a próxima ver que você for, né?!" },
+       { "name": "marina_lopes", "text": "Você e suas ideias de programa tranquilo 😂" }
     ]
   },
   {
@@ -30,82 +24,140 @@
     "comments": [
        { "name": "doug_sampaio", "text": "Olha o cara... todo arrumadinho!" },
        { "name": "kiara.klein", "text": "Minha família é linda, né, gente?!" },
-       { "name": "sanches.monica", "text": "Ficou um gato nesse terno, Kevin!" }
+       { "name": "sanches.monica", "text": "Ficou um gato nesse terno, Kevin!" },
+       { "name": "bia.moraes", "text": "Esse sobrenome abre portas, mas esse sorriso... abre pernas 🤭" },
+       { "name": "caio.nunes", "text": "Esse terno ficou bom demais. Perigoso isso 🔥" },
+       { "name": "juliacastro", "text": "Quero ver quanto tempo você aguento antes de pensar em fugir 😂" }
+    ]
+  },
+  {
+    "src": "../media/3001.png",
+    "alt": "Imagem de duas mãos entrelaçadas.",
+    "caption": "K & K 💖",
+    "date": "02 de fevereiro de 2026",
+    "dateISO": "2026-02-02",
+    "comments": [
+       { "name": "a.kefera", "text": "😘" },
+       { "name": "kiara.klein", "text": "Gente, pára tudo! Minha amiga e meu irmãozinho?! Amei!" },
+       { "name": "sanches.monica", "text": "E vai apresentar a excelentíssima pra galera quando, hein?! 👀" },
+       { "name": "juliacastro", "text": "Tá explicado porque o homem sumiu" },
+       { "name": "bia.moraes", "text": "Kevin apaixonadinho? Só acredito vendo..." },
+       { "name": "leo_freitas", "text": "Tem alguém com sorte por aí e infelizmente não sou eu" },
+       { "name": "rafael.silva", "text": "🤨" },
+       { "name": "gui.caiado", "text": "Olha o cara aí! Todo bobo de paixão" },
+       { "name": "marina_lopes", "text": "Finalmente uma foto sem pose de marrento 😌" }
     ]
   },
   {
     "src": "../media/3004.png",
-    "alt": "Dois jovens malhando na academia.",
+    "alt": "Dois jovens malhando e exibindo os músculos na academia.",
     "caption": "Bora! 💪",
-    "date": "17 de março de 2025",
-    "dateISO": "2025-03-17",
+    "date": "17 de novembro de 2025",
+    "dateISO": "2025-11-17",
     "comments": [
        { "name": "doug_sampaio", "text": "BORA! 💪" },
-       { "name": "kiara.klein", "text": "Gatooos!" }
+       { "name": "kiara.klein", "text": "Gatooos!" },
+       { "name": "sanches.monica", "text": "Kevin, esse treino tá rendendo né... 👀" },
+       { "name": "bia.moraes", "text": "Tem vaga pra treinar com vocês... ou só pra admirar?" },
+       { "name": "leo_freitas", "text": "O dia que eu descobrir que academia é essa... Senhor!" },
+       { "name": "caio.nunes", "text": "Kevin, me passa esse treino que você tá fazendo. Ou deixa eu dar uma conferida de perto..." },
+       { "name": "rafael.silva", "text": "Vocês treinam pesado mesmo ou só ficam se mostrando?" },
+       { "name": "brunaa.ramos", "text": "Bora revesar... lá em casa 🥵" }
     ]
   },
   {
     "src": "../media/3003.png",
-    "alt": "Jovem rapaz segurando uma arma de fogo em um estande de tiro, olhando para a câmera.",
+    "alt": "Jovem rapaz segurando uma arma de fogo em um estande de tiro, olhando para a câmera de forma confiante.",
     "caption": "😎",
     "date": "28 de julho de 2025",
     "dateISO": "2025-07-28",
     "comments": [
-       { "name": "doug_sampaio", "text": "🔫🔫🔫" }
+       { "name": "doug_sampaio", "text": "🔫🔫🔫" },
+       { "name": "sanches.monica", "text": "Ai, amigo... de tanto hobbies, foi escolher logo esse..." },
+       { "name": "kiara.klein", "text": "E pensar que eu achava que você só gostava de farra 🤭" },
+       { "name": "brunaa.ramos", "text": "Essa pose funciona melhor do que devia" },
+       { "name": "leo_freitas", "text": "Se mirar assim pra mim, eu até erro o que ia dizer 🔥" },
+       { "name": "caio.nunes", "text": "Me ensina a pegar nessa pistola também..." }
     ]
   },
   {
     "src": "../media/3007.png",
     "alt": "Jovem na academia contraindo os músculos do braço.",
-    "caption": "",
+    "caption": "No pain, no gain! 💪",
     "date": "20 de outubro de 2024",
     "dateISO": "2024-10-20",
     "comments": [
-       { "name": "doug_sampaio", "text": "Vai ter que se esforçar mais pra me superar, frango!" }
+       { "name": "doug_sampaio", "text": "Vai ter que se esforçar mais pra me superar, frango!" },
+       { "name": "sanches.monica", "text": "Caralho, Kevin! Tá tomando bomba, meu?!" },
+       { "name": "juliacastro", "text": "A academia agradece 🤭" },
+       { "name": "leo_freitas", "text": "Só tenho uma coisa pra dizer... Ké vin, vem! 🥵" },
+       { "name": "caio.nunes", "text": "Posso ser sua próxima repetição? 🥺" },
+       { "name": "bia.moraes", "text": "Que academia você frequenta mesmo? É pro meu TCC..." },
+       { "name": "rafael.silva", "text": "Tá tomando do suco do Doug, é?!" },
+       { "name": "marina_lopes", "text": "Praticou quantas vezes essa pose em casa? 😂" },
+       { "name": "gui.caiado", "text": "Olha o cara! Cresceu, hein, mermão?!" },
+       { "name": "kiara.klein", "text": "Depois não reclama que todo mundo fica olhando, maninho" }
     ]
   },
   {
     "src": "../media/3008.png",
     "alt": "Grupo de jovens em uma viagem de carro.",
-    "caption": "",
+    "caption": "Road trippin' with my two favorite allies",
     "date": "16 de fevereiro de 2024",
     "dateISO": "2024-02-16",
     "comments": [
-       { "name": "doug_sampaio", "text": "Foto de eu trocando a porra do pneu no meio do nada você não posta, né?!" },
-       { "name": "sanches.monica", "text": "Amei a viagem!" }
+       { "name": "sanches.monica", "text": "Amei a viagem!" },
+       { "name": "doug_sampaio", "text": "Foto que eu tô trocando a porra do pneu no meio do nada você não posta, né?!" },
+       { "name": "marina_lopes", "text": "Mônica: boa de pesquisa, boa de roteiro e boa de programação. Kevin: Bom dia, boa tarde, boa noite!" },
+       { "name": "caio.nunes", "text": "Na próxima vez será que tem lugar pra mim na traiseira? 🤭" },
+       { "name": "juliacastro", "text": "As melhores histórias e memórias sempre começam assim" },
+       { "name": "rafael.silva", "text": "Monica, ainda bem que você tava lá pra organizar esse povo." }
     ]
   },
   {
     "src": "../media/3005.png",
-    "alt": "Jovem malhando na academia.",
+    "alt": "Jovem malhando na academia. Parece estar realizando um exercício de agachamento em uma máquina Smith.",
     "caption": "Vem monstro, porra!!",
     "date": "20 de novembro de 2023",
     "dateISO": "2023-11-20",
     "comments": [
-       { "name": "doug_sampaio", "text": "BORA, BIL!" }
+       { "name": "doug_sampaio", "text": "BORA, BIL!" },
+       { "name": "sanches.monica", "text": "É isso aí, Kevin! Pra cima!" },
+       { "name": "bia.moraes", "text": "Alguém avisa que eu vim pela vista, não pelo treino." },
+       { "name": "leo_freitas", "text": "Se precisar de alguém pra contar as repetições, tô livre" },
+       { "name": "caio.nunes", "text": "Puta que pariu, Kevin 🥵" },
+       { "name": "juliacastro", "text": "Kevin concentrado é uma raridade que merece registro." },
+       { "name": "rafael.silva", "text": "Aposto que é o Doug que tá montando seus treinos" }
     ]
   },
   {
     "src": "../media/3011.png",
-    "alt": "Dois jovens fazendo pose na torre de Pisa na Itália.",
+    "alt": "Dois jovens fazendo pose engraçada na torre de Pisa na Itália.",
     "caption": "Essa torre é pesada! 😅",
     "date": "11 de setembro de 2023",
     "dateISO": "2023-09-11",
     "comments": [
        { "name": "doug_sampaio", "text": "Segura essa! HAHAHAHA" },
        { "name": "kiara.klein", "text": "Roubaram suas roupas na viagem, maninho? Tá vestido que nem um mendigo! 🤣" },
-       { "name": "sanches.monica", "text": "MEU DEUS! 🤣" }
+       { "name": "sanches.monica", "text": "MEU DEUS! 🤣" },
+       { "name": "marina_lopes", "text": "Puta merda, Kevin, todo descoordenado! 😂" },
+       { "name": "rafael.silva", "text": "Doug parece estar se divertindo mais com você do que com a Itália" },
+       { "name": "leo_freitas", "text": "Queria eu ser essa torre 🔥" },
+       { "name": "juliacastro", "text": "Ai, olha, o humor desses dois!" }
     ]
   },
   {
     "src": "../media/3009.png",
-    "alt": "Grupo de jovens no rooftop de um prédio, com a cidade do Rio de Janeiro ao fundo.",
+    "alt": "Grupo de jovens no rooftop de um prédio à noite, com a cidade do Rio de Janeiro ao fundo.",
     "caption": "Essa viagem do terceirão Nostradamus vai ficar na memória",
     "date": "18 de dezembro de 2022",
     "dateISO": "2022-12-18",
     "comments": [
        { "name": "doug_sampaio", "text": "Tamo junto pra sempre, meu mano Kevin!" },
-       { "name": "sanches.monica", "text": "Já sinto saudades, gente 🥹" }
+       { "name": "sanches.monica", "text": "Já sinto saudades, gente 🥹" },
+       { "name": "gui.caiado", "text": "O terceirão acabou, mas essa noite virou lenda" },
+       { "name": "marina_lopes", "text": "Sinto o cheiro dessa foto daqui 🤭" },
+       { "name": "juliacastro", "text": "Vocês dizem 'só mais uma' desde o começo da noite." }
     ]
   }
 ]
