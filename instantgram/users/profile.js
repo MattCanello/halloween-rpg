@@ -1,5 +1,5 @@
 const existingProfiles = [
-    'kalil.belmonte', 'prof.kornelio', 'angelica.garcia', 'kiara.klein'
+    'kalil.belmonte', 'prof.kornelio', 'angelica.garcia', 'kiara.klein', 'kevin.klein', 'a.kefera'
 ];
 
 const dialog = document.querySelector(".photo-dialog");
