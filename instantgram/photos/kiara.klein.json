@@ -6,154 +6,16 @@
     "date": "04 de outubro de 2026",
     "dateISO": "2026-10-04",
     "comments": [
-      {
-        "name": "luiza.moraes",
-        "text": "Família linda!"
-      },
-      {
-        "name": "adriana.almeida",
-        "text": "A beleza e a classe vieram no mesmo pacote, né?"
-      },
-      {
-        "name": "beatriz.almeida",
-        "text": "Queria eu acordar com esse nível de vida leve e zero preocupação"
-      },
-      {
-        "name": "anaflavia.almeida",
-        "text": "Kiara, de onde é esse look? Minha carteira está perguntando também"
-      },
-      {
-        "name": "camila.almeida",
-        "text": "Meu plano de carreira agora é ser você"
-      },
-      {
-        "name": "arthur.almeida",
-        "text": "Se beleza pagasse imposto, você financiava a cidade inteira"
-      },
-      {
-        "name": "carolina.almeida",
-        "text": "Inspirando meninas a parcelar uma vida de princesa... uma herdeira em missão de prestigiar o patriarcado."
-      },
-      {
-        "name": "alana.almeida",
-        "text": "Você não aparece, você faz entrada triunfal"
-      },
-      {
-        "name": "eduarda.almeida",
-        "text": "Um dia ainda vou ter esse bom gosto e esse cartão sem limite"
-      },
-      {
-        "name": "bruna.almeida",
-        "text": "Qual é o segredo pra sair bem em todas as fotos?"
-      },
-      {
-        "name": "bianca.almeida",
-        "text": "Que mulher linda, até a luz parece sua fã"
-      },
-      {
-        "name": "barbara.almeida",
-        "text": "Tem algum post seu que não seja uma vitrine ou é lenda? 🙄"
-      },
-      {
-        "name": "celina.almeida",
-        "text": "Elegância sem esforço devia ser matéria na escola"
-      },
-      {
-        "name": "bernardo.almeida",
-        "text": "Posso ser o próximo detalhe bonito dessa foto? 😜"
-      },
-      {
-        "name": "joana.almeida",
-        "text": "Meu pinterest acabou de pedir demissão, não consegue competir"
-      },
-      {
-        "name": "dayane.almeida",
-        "text": "O rosto entrega capa de revista, mas o conteúdo ficou de fora..."
-      },
-      {
-        "name": "larissa.almeida",
-        "text": "Seu feed me faz querer trocar de vida e de guarda-roupa"
-      },
-      {
-        "name": "carla.almeida",
-        "text": "Queria ver uma opinião sua que não veio com filtro e marcação de lugar 🙄"
-      },
-      {
-        "name": "elisa.almeida",
-        "text": "Perfeita num nível que chega a ser falta de educação"
-      },
-      {
-        "name": "manuela.almeida",
-        "text": "Você vive como se a vida tivesse filtro de luz dourada"
-      },
-      {
-        "name": "danilo.almeida",
-        "text": "Você aceita um café ou só brindes em lugares caros?"
-      },
-      {
-        "name": "natalia.almeida",
-        "text": "Um dia eu chego nesse nível de beleza, o resto a gente negocia"
-      },
-      {
-        "name": "fabiana.almeida",
-        "text": "Você tem uma beleza de quem nunca pegou uma fila"
-      },
-      {
-        "name": "olivia.almeida",
-        "text": "O segredo é nascer com bom gosto ou você aceita alunas?"
-      },
-      {
-        "name": "diana.almeida",
-        "text": "Muito cenário, pouca história 🙄"
-      },
-      {
-        "name": "giulia.almeida",
-        "text": "Chique até quando parece que nunca usou nada no rosto"
-      },
-      {
-        "name": "ellen.almeida",
-        "text": "Aceita consultoria de imagem ou só inspiração mesmo?"
-      },
-      {
-        "name": "quezia.almeida",
-        "text": "Essa é a energia que eu quero levar pra minha próxima segunda-feira"
-      },
-      {
-        "name": "hannah.almeida",
-        "text": "A câmera claramente tem uma favorita"
-      },
-      {
-        "name": "sabrina.almeida",
-        "text": "Até meu algoritmo entendeu que quero essa vida pra mim"
-      },
-      {
-        "name": "enzo.almeida",
-        "text": "Esse sorriso acabou de deixar meu feed mais caro"
-      },
-      {
-        "name": "talita.almeida",
-        "text": "Faz um curso de como escolher cenário e roupa, por favor!!!"
-      },
-      {
-        "name": "eliane.almeida",
-        "text": "Se tirar o luxo da foto, sobra alguma coisa? 🙄"
-      },
-      {
-        "name": "gisele.almeida",
-        "text": "Você responde comentários ou só recebe elogios? 👀"
-      },
-      {
-        "name": "valentina.almeida",
-        "text": "Vou mostrar pro meu banco e perguntar onde está meu PAItrocínio"
-      },
-      {
-        "name": "ingrid.almeida",
-        "text": "Linda, fina e com cara de quem pede sem olhar o preço"
-      },
-      {
-        "name": "yasmin.almeida",
-        "text": "Mais um dia usando sua vida como inspiração e meu salário como limite 😭"
-      }
+      { "name": "luiza.moraes", "text": "Família linda!" },
+      { "name": "adriana.almeida", "text": "A beleza e a classe vieram no mesmo pacote, né?" },
+      { "name": "bea_lemos", "text": "Queria eu acordar com esse nível de vida leve e zero preocupação" },
+      { "name": "anaflaviafeltrin", "text": "Kiara, de onde é esse look? Minha carteira está perguntando também" },
+      { "name": "alana.filip", "text": "Você não aparece, você faz entrada triunfal" },
+      { "name": "bianca.casto", "text": "Que mulher linda, até a luz parece sua fã" },
+      { "name": "manu_macedo", "text": "Você vive como se a vida tivesse filtro de luz dourada" },
+      { "name": "natichaves", "text": "Um dia eu chego nesse nível de beleza, o resto a gente negocia" },
+      { "name": "giulia.almeida", "text": "Chique até quando parece que nunca usou nada no rosto" },
+      { "name": "gi_guedes", "text": "Você responde comentários ou só recebe elogios? 👀" }
     ]
   },
   {
@@ -163,7 +25,14 @@
     "date": "04 de março de 2026",
     "dateISO": "2026-03-04",
     "comments": [
-       { "name": "luiza.moraes", "text": "Essencial!!!" }
+      { "name": "luiza.moraes", "text": "Essencial!!!" },
+      { "name": "yasmin_dasilva", "text": "Mais um dia usando sua vida como inspiração e meu salário como limite 😭" },
+      { "name": "cassia.borges", "text": "Vou mostrar pro meu banco e perguntar onde está meu PAItrocínio" },
+      { "name": "santos.sabrina", "text": "Até meu algoritmo entendeu que quero essa vida pra mim" },
+      { "name": "day.santos", "text": "O rosto entrega capa de revista, mas o conteúdo ficou de fora..." },
+      { "name": "duarda.santos", "text": "Um dia ainda vou ter esse bom gosto e esse cartão sem limite" },
+      { "name": "carol.martins", "text": "Inspirando meninas a parcelar uma vida de princesa... uma herdeira em missão de prestigiar o patriarcado." },
+      { "name": "enzo_silva", "text": "Esse sorriso acabou de deixar meu feed mais caro" }
     ]
   },
   {
@@ -173,7 +42,14 @@
     "date": "26 de julho de 2026",
     "dateISO": "2026-07-26",
     "comments": [
-       { "name": "tulio.dias", "text": "Brindar comigo não quer, né, gata?!" }
+      { "name": "santiago.ingrid", "text": "Linda, fina e com cara de quem pede sem olhar o preço" },
+      { "name": "tulio.dias", "text": "Brindar comigo não quer, né, gata?!" },
+      { "name": "eliane_souza", "text": "Se tirar o luxo da foto, sobra alguma coisa? 🙄" },
+      { "name": "ellen_rocha", "text": "Aceita consultoria de imagem ou só inspiração mesmo?" },
+      { "name": "joana_moreira", "text": "Meu pinterest acabou de pedir demissão, não consegue competir" },
+      { "name": "lari_silva", "text": "Seu feed me faz querer trocar de vida e de guarda-roupa" },
+      { "name": "carla.santiago", "text": "Queria ver uma opinião sua que não veio com filtro e marcação de lugar 🙄" },
+      { "name": "danilorodrigues", "text": "Você aceita um café ou só brindes em lugares caros?" }
     ]
   },
   {
@@ -199,12 +75,19 @@
   },
   {
     "src": "../media/2010.png",
-    "alt": "Pessoa em viagem, sorrindo diante de uma paisagem bonita e aproveitando o momento.",
+    "alt": "Pessoa em viagem, diante de uma paisagem bonita e aproveitando o momento.",
     "caption": "Ah, como eu adoro viajar!",
     "date": "15 de setembro de 2025",
     "dateISO": "2025-09-15",
     "comments": [
-       { "name": "luiza.moraes", "text": "Linda! Por onde você anda?!" }
+      { "name": "luiza.moraes", "text": "Linda! Por onde você anda?!" },
+      { "name": "camila.santos", "text": "Meu plano de carreira agora é ser você" },
+      { "name": "celinaaguiar", "text": "Elegância sem esforço devia ser matéria na escola" },
+      { "name": "arthur_aguiar", "text": "Se beleza pagasse imposto, você financiava a cidade inteira" },
+      { "name": "elisa_fernandes", "text": "Perfeita num nível que chega a ser falta de educação" },
+      { "name": "albuquerque.talita", "text": "Faz um curso de como escolher cenário e roupa, por favor!!!" },
+      { "name": "a_sandra_ana", "text": "Essa é a energia que eu quero levar pra minha próxima segunda-feira" },
+      { "name": "diana.priori", "text": "Muito cenário, pouca história 🙄" }
     ]
   },
   {
@@ -214,7 +97,11 @@
     "date": "18 de maio de 2025",
     "dateISO": "2025-05-18",
     "comments": [
-       { "name": "tulio.dias", "text": "Não tão linda quanto você, gata 😜" }
+      { "name": "bernardo.ferreira", "text": "Posso ser o próximo detalhe bonito dessa foto? 😜" },
+      { "name": "tulio.dias", "text": "Não tão linda quanto você, gata 😜" },
+      { "name": "fabiaaana", "text": "Você tem uma beleza de quem nunca pegou uma fila" },
+      { "name": "barbara_rodrigues", "text": "Tem algum post seu que não seja uma vitrine ou é lenda? 🙄" },
+      { "name": "olivia.rodrigo", "text": "O segredo é nascer com bom gosto ou você aceita alunas?" }
     ]
   },
   {
@@ -225,7 +112,8 @@
     "dateISO": "2024-12-17",
     "comments": [
        { "name": "luiza.moraes", "text": "Arrasou!" },
-       { "name": "tulio.dias", "text": "Ui, ui, ui, que delícia!" }
+       { "name": "tulio.dias", "text": "Ui, ui, ui, que delícia!" },
+      { "name": "bru_chavier", "text": "Qual é o segredo pra sair bem em todas as fotos?" }
     ]
   },
   {
@@ -235,9 +123,9 @@
     "date": "10 de dezembro de 2024",
     "dateISO": "2024-12-10",
     "comments": [
-       { "name": "a.kefera", "text": "😘" },
-       { "name": "luiza.moraes", "text": "Lindos!" },
-       { "name": "tulio.dias", "text": "Pô, festinha exclusiva agora, é?!" }
+      { "name": "luiza.moraes", "text": "Lindos!" },
+      { "name": "tulio.dias", "text": "Pô, festinha exclusiva agora, é?!" },
+      { "name": "ana_camargo", "text": "A câmera claramente tem uma favorita" }
     ]
   },
   {
