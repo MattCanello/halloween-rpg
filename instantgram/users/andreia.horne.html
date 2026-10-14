@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f7f6f3">
+	<meta name="description" content="Perfil público de Andréia Horne no Instantgram.">
+	<title>Perfil · Instantgram</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.png" />
+</head>
+<body>
+    <header class="site-header">
+		<a class="brand" href="#perfil" aria-label="Instantgram, início">Instantgram</a>
+	</header>
+
+	<main id="perfil">
+		<header class="profile" aria-labelledby="profile-name">
+			<figure class="avatar">
+				<img src="" alt="Fotografia de perfil">
+			</figure>
+			<section class="profile-details" aria-label="Informações do perfil">
+				<h1 id="profile-name"></h1>
+                <input type="hidden" id="username" value="" />
+				<ul class="stats" aria-label="Estatísticas do perfil">
+					<li><strong id="published-photos">-</strong> publicações</li>
+					<li><strong id="followers">-</strong> seguidores</li>
+					<li><strong id="following">-</strong> seguindo</li>
+				</ul>
+			</section>
+			<p class="profile-bio"><span id="profile-bio-text"></span><br><span id="profile-place"></span></p>
+			<p class="profile-status" id="profile-status" data-state="loading" role="status" aria-live="polite">
+				<span class="profile-status-message">Carregando perfil...</span>
+			</p>
+		</header>
+
+		<section aria-labelledby="photos-heading">
+			<header class="feed-heading">
+				<h2 id="photos-heading">Publicações</h2>
+			</header>
+			<p class="feed-status" id="feed-status" data-state="loading" role="status" aria-live="polite">
+				<span class="feed-status-message">Carregando fotos...</span>
+			</p>
+			<ul class="photo-grid" aria-label="Fotos publicadas" hidden></ul>
+		</section>
+	</main>
+
+	<dialog class="photo-dialog" aria-labelledby="dialog-account-name" aria-describedby="dialog-caption">
+		<section class="dialog-layout">
+			<figure class="dialog-media">
+				<img class="dialog-image" src="" alt="">
+				<button class="icon-button dialog-close" type="button" aria-label="Fechar foto">&times;</button>
+				<button class="icon-button dialog-arrow dialog-previous" type="button" aria-label="Ver foto anterior">&#8249;</button>
+				<button class="icon-button dialog-arrow dialog-next" type="button" aria-label="Ver próxima foto">&#8250;</button>
+			</figure>
+			<aside class="dialog-details">
+				<header class="dialog-account">
+					<img class="mini-avatar" src="" alt="">
+					<span id="dialog-account-name"></span>
+				</header>
+				<section class="dialog-copy" aria-label="Legenda e comentários">
+					<p class="caption" id="dialog-caption"></p>
+					<h2 class="comments-heading">Comentários</h2>
+					<ul class="comments" aria-live="polite" aria-relevant="additions text"></ul>
+				</section>
+			</aside>
+		</section>
+	</dialog>
+
+	<script src="./profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "username": "andreia.horne",
+  "profilePicture": {
+    "src": "../media/andreia.horne/profile.png",
+    "alt": ""
+  },
+  "profile": {
+    "name": "Andréia Horne",
+    "bio": "",
+    "place": "",
+    "stats": {
+      "publishedPhotos": 5,
+      "followers": 920,
+      "following": 330
+    }
+  }
+}

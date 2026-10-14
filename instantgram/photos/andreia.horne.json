@@ -1,0 +1,42 @@
+[
+  {
+    "src": "../media/8001.png",
+    "alt": "Jovem mulher tomando café uma cafeteria com decoração maximalista.",
+    "caption": "As pessoas falam demais",
+    "date": "16 de outubro de 2026",
+    "dateISO": "2026-10-16",
+    "comments": []
+  },
+  {
+    "src": "../media/8002.png",
+    "alt": "Jovem mulher de mochila nas costas andando na chuva à noite em um lugar urbano.",
+    "caption": "Eu deveria estar em outro lugar...",
+    "date": "12 de julho de 2026",
+    "dateISO": "2026-07-12",
+    "comments": []
+  },
+  {
+    "src": "../media/8004.png",
+    "alt": "Jovem mulher escorada em um muro de tijolos aparentes.",
+    "caption": "Eu poderia desaparecer agora e ninguém saberia pra onde eu fui",
+    "date": "01 de maio de 2026",
+    "dateISO": "2026-05-01",
+    "comments": []
+  },
+  {
+    "src": "../media/8003.png",
+    "alt": "Jovem mulher posando atrás de um disco de vinil em uma foto com estética vintage.",
+    "caption": "🎷",
+    "date": "15 de março de 2026",
+    "dateISO": "2026-03-15",
+    "comments": []
+  },
+  {
+    "src": "../media/8005.png",
+    "alt": "Espaço de leitura com poltrona, livros e café.",
+    "caption": "📖☕🧤👠",
+    "date": "16 de julho de 2025",
+    "dateISO": "2025-07-16",
+    "comments": []
+  }
+]
