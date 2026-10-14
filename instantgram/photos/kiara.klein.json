@@ -59,7 +59,13 @@
     "date": "26 de dezembro de 2025",
     "dateISO": "2025-12-26",
     "comments": [
-       { "name": "luiza.moraes", "text": "Fofas!" }
+      { "name": "luiza.moraes", "text": "Fofas! Saudades da tia Val" },
+      { "name": "claudia_trentim", "text": "Deus tem seus preferidos mesmo" },
+      { "name": "ortega.danilo", "text": "Pegava as duas" },
+      { "name": "tulio.dias", "text": "Você ainda vai me apresentar como genro pra ela 😜" },
+      { "name": "tania_saramago", "text": "Que bonitas! Feliz Natal para as duas!" },
+      { "name": "tifane.castro", "text": "A genética tá boa por aí, né?" },
+      { "name": "simon_silvia", "text": "Duas desocupadas" }
     ]
   },
   {
@@ -69,8 +75,12 @@
     "date": "04 de dezembro de 2025",
     "dateISO": "2025-12-04",
     "comments": [
-       { "name": "kevin.klein", "text": "Também te amo, maninha!" },
-       { "name": "luiza.moraes", "text": "Lindos!" }
+      { "name": "kevin.klein", "text": "Também te amo, maninha!" },
+      { "name": "luiza.moraes", "text": "Lindos!" },
+      { "name": "moraes.moreira", "text": "A beleza é de família, pelo visto" },
+      { "name": "juliasantiago", "text": "Ricos sendo ricos 🙄" },
+      { "name": "doug_sampaio", "text": "É pra isso que a gente malha as costas!" },
+      { "name": "sanches.monica", "text": "Que dupla mais linda! Saudades, Ki!" }
     ]
   },
   {
@@ -111,9 +121,10 @@
     "date": "17 de dezembro de 2024",
     "dateISO": "2024-12-17",
     "comments": [
-       { "name": "luiza.moraes", "text": "Arrasou!" },
-       { "name": "tulio.dias", "text": "Ui, ui, ui, que delícia!" },
-      { "name": "bru_chavier", "text": "Qual é o segredo pra sair bem em todas as fotos?" }
+      { "name": "luiza.moraes", "text": "Arrasou!" },
+      { "name": "tulio.dias", "text": "Ui, ui, ui, que delícia!" },
+      { "name": "bru_chavier", "text": "Qual é o segredo pra sair bem em todas as fotos?" },
+      { "name": "cristina_borba", "text": "Gente rica é outra coisa, né..." }
     ]
   },
   {
@@ -125,7 +136,8 @@
     "comments": [
       { "name": "luiza.moraes", "text": "Lindos!" },
       { "name": "tulio.dias", "text": "Pô, festinha exclusiva agora, é?!" },
-      { "name": "ana_camargo", "text": "A câmera claramente tem uma favorita" }
+      { "name": "ana_camargo", "text": "A câmera claramente tem uma favorita" },
+      { "name": "sanches.maria", "text": "Garota! Que arraso!" }
     ]
   },
   {
@@ -136,7 +148,8 @@
     "dateISO": "2024-10-11",
     "comments": [
        { "name": "luiza.moraes", "text": "Ai, amiga..." },
-       { "name": "tulio.dias", "text": "Não tem problema, gata, eu te levo pra onde você quiser 😜" }
+       { "name": "tulio.dias", "text": "Não tem problema, gata, eu te levo pra onde você quiser 😜" },
+       { "name": "borges.ju", "text": "Problema de garota rica 🙄" }
     ]
   }
 ]
