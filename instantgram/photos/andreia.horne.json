@@ -8,9 +8,9 @@
     "comments": []
   },
   {
-    "src": "../media/8002.png",
-    "alt": "Jovem mulher de mochila nas costas andando na chuva à noite em um lugar urbano.",
-    "caption": "Eu deveria estar em outro lugar...",
+    "src": "../media/8006.png",
+    "alt": "Pessoa dirigindo carro de luxo na chuva à noite.",
+    "caption": "Não estou perdida",
     "date": "12 de julho de 2026",
     "dateISO": "2026-07-12",
     "comments": []
@@ -37,6 +37,14 @@
     "caption": "📖☕🧤👠",
     "date": "16 de julho de 2025",
     "dateISO": "2025-07-16",
+    "comments": []
+  },
+  {
+    "src": "../media/8002.png",
+    "alt": "Jovem mulher de mochila nas costas andando na chuva à noite em um lugar urbano.",
+    "caption": "Eu deveria estar em outro lugar...",
+    "date": "12 de maio de 2025",
+    "dateISO": "2025-05-12",
     "comments": []
   }
 ]
