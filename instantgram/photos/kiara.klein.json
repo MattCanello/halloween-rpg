@@ -22,8 +22,8 @@
     "src": "../media/2003.png",
     "alt": "Jovem em passeio de compras, rindo e posando com bolsas.",
     "caption": "Só umas comprinhas básicas, né, meninas? 💅",
-    "date": "04 de março de 2026",
-    "dateISO": "2026-03-04",
+    "date": "26 de julho de 2026",
+    "dateISO": "2026-07-26",
     "comments": [
       { "name": "luiza.moraes", "text": "Essencial!!!" },
       { "name": "yasmin_dasilva", "text": "Mais um dia usando sua vida como inspiração e meu salário como limite 😭" },
@@ -36,11 +36,27 @@
     ]
   },
   {
+    "src": "../media/2011.png",
+    "alt": "Jovem mulher fazendo uma selfie no espelho do banheiro.",
+    "caption": "🤳",
+    "date": "16 de maio de 2026",
+    "dateISO": "2026-05-16",
+    "comments": [
+      { "name": "luiza.moraes", "text": "Uma deusa! Linda, amiga!" },
+      { "name": "tulio.dias", "text": "Papai do céu, é só isso que te peço!" },
+      { "name": "cintia_rosa", "text": "Que Deus te elimine!" },
+      { "name": "alana_duarte", "text": "Que babado, diva! Amei o look!" },
+      { "name": "andrey.soares", "text": "Deixa eu apagar esse teu fogo aí, gatinha" },
+      { "name": "alves.gio", "text": "Princesinha desse jeito, deve ser uma bandida na cama!" },
+      { "name": "juarez_soares", "text": "Oh lá em casa!" }
+    ]
+  },
+  {
     "src": "../media/2009.png",
     "alt": "Mulher brindando com vinho, de forma descontraída e agradável.",
     "caption": "Vai um vinho aí, meninas? 🍷",
-    "date": "26 de julho de 2026",
-    "dateISO": "2026-07-26",
+    "date": "04 de março de 2026",
+    "dateISO": "2026-03-04",
     "comments": [
       { "name": "santiago.ingrid", "text": "Linda, fina e com cara de quem pede sem olhar o preço" },
       { "name": "tulio.dias", "text": "Brindar comigo não quer, né, gata?!" },
