@@ -1,5 +1,20 @@
 [
   {
+    "src": "../media/1003.png",
+    "alt": "Imagem com fundo preto e as palavras 'Nota de Repúdio' escritas em vermelho.",
+    "caption": [
+      "Recebi com profunda indignação a ciência de uma denúncia anônima que considero absolutamente infundada e incompatível com minha trajetória no Colégio Nostradamus de Porto Alegre.",
+      "Ao longo de todos estes anos, sempre tratei meus alunos com respeito, seriedade e dedicação, buscando contribuir de forma positiva para sua formação acadêmica e pessoal. Tenho plena consciência do trabalho que construí e do exemplo que procurei oferecer dentro e fora da sala de aula.", 
+      "Lamento que acusações sem fundamento sejam utilizadas para me atacar dessa maneira. Não aceitarei que tais fofocas apaguem uma história marcada pelo compromisso com a educação e pelo respeito a cada estudante que passou por minhas aulas.",
+      "Repudio veementemente essa situação e reafirmo que isso não ficará impune.", 
+      "Prof. Kornélio"
+    ],
+    "date": "17 de abril de 2026",
+    "dateISO": "2026-04-17",
+    "comments": [
+    ]
+  },
+  {
     "src": "../media/1001.png",
     "alt": "Professor em sala de aula, de volta ao ensino presencial, animado e confiante.",
     "caption": "É bom estar lecionando em sala de aula novamente.",

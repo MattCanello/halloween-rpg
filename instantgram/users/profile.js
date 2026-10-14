@@ -143,7 +143,9 @@ async function loadPhotos() {
         const result = await response.json();
         if (!Array.isArray(result) || result.some((photo) => (
             !photo || typeof photo.src !== "string" || typeof photo.alt !== "string" ||
-            typeof photo.caption !== "string" || typeof photo.date !== "string" ||
+            !(typeof photo.caption === "string" || (
+                Array.isArray(photo.caption) && photo.caption.every((line) => typeof line === "string")
+            )) || typeof photo.date !== "string" ||
             typeof photo.dateISO !== "string" || !Array.isArray(photo.comments)
         ))) {
             throw new Error("O arquivo de fotos tem um formato inválido.");
@@ -174,7 +176,15 @@ function renderPhoto(index) {
 
     const author = document.createElement("strong");
     author.textContent = document.getElementById("username").value;
-    caption.append(author, document.createTextNode(photo.caption));
+    caption.append(author);
+    if (Array.isArray(photo.caption)) {
+        photo.caption.forEach((line, index) => {
+            if (index > 0) caption.append(document.createElement("br"));
+            caption.append(document.createTextNode(line));
+        });
+    } else {
+        caption.append(document.createTextNode(photo.caption));
+    }
 
     const date = document.createElement("time");
     date.dateTime = photo.dateISO;
