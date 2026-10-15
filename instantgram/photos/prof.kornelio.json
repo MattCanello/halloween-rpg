@@ -12,6 +12,12 @@
     "date": "17 de abril de 2026",
     "dateISO": "2026-04-17",
     "comments": [
+      { "name": "lucas.moreira", "text": "É verdade que você foi demitido?" },
+      { "name": "julia.santos", "text": "Eita! O que aconteceu?!" },
+      { "name": "rogerio_sanches", "text": "Estão dizendo no colégio que o senhor foi afastado, o que aconteceu?" },
+      { "name": "signor.janaina", "text": "Até parece que é o primeiro cheirador de pó desse colégio..." },
+      { "name": "tulio.dias", "text": "Andou pegando novinha, fessor?! 🤣" },
+      { "name": "ma.borges", "text": "Fofoca pela metade, professor???" }
     ]
   },
   {
@@ -21,42 +27,15 @@
     "date": "23 de julho de 2022",
     "dateISO": "2022-11-29",
     "comments": [
-      {
-        "name": "ma.borges",
-        "text": "Não aguentava mais aula pelo zoom!"
-      },
-      {
-        "name": "lia.silva",
-        "text": "Quando vai liberar as notas no portal, professor????"
-      },
-      {
-        "name": "carlos.simoes",
-        "text": "Professor, me dá um ponto aí, por favor. Preciso passar de ano"
-      },
-      {
-        "name": "andreia.horne",
-        "text": "Senti muita falta das suas aulas presenciais, professor..."
-      },
-      {
-        "name": "julia.faria",
-        "text": "Saudades do que ainda não vivemos, professor!"
-      },
-      {
-        "name": "lucas.silva",
-        "text": "Que bosta, ter aula presencial de novo. Preferia como era antes."
-      },
-      {
-        "name": "kiara.klein",
-        "text": "Nunca critiquei!"
-      },
-      {
-        "name": "duarte.garcia",
-        "text": "Affs... vive mandando a gente ler alguma coisa, que inferno..."
-      },
-      {
-        "name": "laisa.santos",
-        "text": "Você dá aula particular?"
-      }
+      { "name": "ma.borges", "text": "Não aguentava mais aula pelo zoom!" },
+      { "name": "lia.silva", "text": "Quando vai liberar as notas no portal, professor????" },
+      { "name": "carlos.simoes", "text": "Professor, me dá um ponto aí, por favor. Preciso passar de ano" },
+      { "name": "andreia.horne", "text": "Senti muita falta das suas aulas presenciais, professor..." },
+      { "name": "julia.faria", "text": "Saudades do que ainda não vivemos, professor!" },
+      { "name": "lucas.silva", "text": "Que bosta, ter aula presencial de novo. Preferia como era antes." },
+      { "name": "kiara.klein", "text": "Nunca critiquei!" },
+      { "name": "duarte.garcia", "text": "Affs... vive mandando a gente ler alguma coisa, que inferno..." },
+      { "name": "laisa.santos", "text": "Você dá aula particular?" }
     ]
   },
   {
@@ -66,26 +45,11 @@
     "date": "03 de março de 2020",
     "dateISO": "2020-03-03",
     "comments": [
-      {
-        "name": "julia.faria",
-        "text": "🙏"
-      },
-      {
-        "name": "lucas.silva",
-        "text": "Até quando vamos ter que ficar em casa, professor?"
-      },
-      {
-        "name": "duarte.garcia",
-        "text": "Não sei se eu vou conseguir me acostumar com isso, professor..."
-      },
-      {
-        "name": "carlos.simoes",
-        "text": "Tem que pegar leve com a gente esse ano, professor... ninguém quer reprovar em casa."
-      },
-      {
-        "name": "ma.borges",
-        "text": "Não aguento mais não poder sair de casa!"
-      }
+      { "name": "julia.faria", "text": "🙏" },
+      { "name": "lucas.silva", "text": "Até quando vamos ter que ficar em casa, professor?" },
+      { "name": "duarte.garcia", "text": "Não sei se eu vou conseguir me acostumar com isso, professor..." },
+      { "name": "carlos.simoes", "text": "Tem que pegar leve com a gente esse ano, professor... ninguém quer reprovar em casa." },
+      { "name": "ma.borges", "text": "Não aguento mais não poder sair de casa!" }
     ]
   }
 ]
