@@ -103,8 +103,8 @@
     "src": "../media/2010.png",
     "alt": "Pessoa em viagem, diante de uma paisagem bonita e aproveitando o momento.",
     "caption": "Ah, como eu adoro viajar!",
-    "date": "15 de setembro de 2025",
-    "dateISO": "2025-09-15",
+    "date": "02 de outubro de 2025",
+    "dateISO": "2025-10-02",
     "comments": [
       { "name": "luiza.moraes", "text": "Linda! Por onde você anda?!" },
       { "name": "camila.santos", "text": "Meu plano de carreira agora é ser você" },
@@ -114,6 +114,15 @@
       { "name": "albuquerque.talita", "text": "Faz um curso de como escolher cenário e roupa, por favor!!!" },
       { "name": "a_sandra_ana", "text": "Essa é a energia que eu quero levar pra minha próxima segunda-feira" },
       { "name": "diana.priori", "text": "Muito cenário, pouca história 🙄" }
+    ]
+  },
+  {
+    "src": "../media/2012.png",
+    "alt": "Dois jovens posando para fotos juntos em um pampa gaúcho.",
+    "caption": "Meu melhor amigo desde sempre",
+    "date": "20 de setembro de 2025",
+    "dateISO": "2025-09-20",
+    "comments": [
     ]
   },
   {
