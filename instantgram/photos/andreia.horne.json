@@ -5,7 +5,10 @@
     "caption": "As pessoas falam demais",
     "date": "16 de outubro de 2026",
     "dateISO": "2026-10-16",
-    "comments": []
+    "comments": [
+      { "name": "tulio.dias", "text": "E quando é que a gente vai se falar assim mais de perto, hein, gata?! 😜" },
+      { "name": "kiara.klein", "text": "Franze a testa, não, amiga... vai aumentar as rugas" }
+    ]
   },
   {
     "src": "../media/8006.png",
@@ -13,7 +16,9 @@
     "caption": "Não estou perdida",
     "date": "12 de julho de 2026",
     "dateISO": "2026-07-12",
-    "comments": []
+    "comments": [
+      { "name": "mariana_lopes", "text": "Aprendeu a usar o GPS, foi?" }
+    ]
   },
   {
     "src": "../media/8004.png",
@@ -21,7 +26,9 @@
     "caption": "Eu poderia desaparecer agora e ninguém saberia pra onde eu fui",
     "date": "01 de maio de 2026",
     "dateISO": "2026-05-01",
-    "comments": []
+    "comments": [
+      { "name": "diana.fenala", "text": "Não diga isso, Andréia" }
+    ]
   },
   {
     "src": "../media/8003.png",
@@ -29,7 +36,9 @@
     "caption": "🎷",
     "date": "15 de março de 2026",
     "dateISO": "2026-03-15",
-    "comments": []
+    "comments": [
+      { "name": "tulio.dias", "text": "Se esconde não, gatinha... o que é bonito tem que ser mostrado 😜" }
+    ]
   },
   {
     "src": "../media/8005.png",
@@ -37,7 +46,9 @@
     "caption": "📖☕🧤👠",
     "date": "16 de julho de 2025",
     "dateISO": "2025-07-16",
-    "comments": []
+    "comments": [
+      { "name": "tiago.bastos", "text": "Deve ser muito tranquilo aí no hotel" }
+    ]
   },
   {
     "src": "../media/8002.png",
@@ -45,6 +56,8 @@
     "caption": "Eu deveria estar em outro lugar...",
     "date": "12 de maio de 2025",
     "dateISO": "2025-05-12",
-    "comments": []
+    "comments": [
+      { "name": "mariana_lopes", "text": "Tá precisando de um guarda-chuva, viu?" }
+    ]
   }
 ]

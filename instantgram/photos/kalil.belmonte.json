@@ -30,14 +30,8 @@
     "date": "30 de novembro de 2024",
     "dateISO": "2024-11-30",
     "comments": [
-      {
-        "name": "luiza.moraes",
-        "text": "🙂"
-      },
-      {
-        "name": "tulio.dias",
-        "text": "Bora Terceirão #2!"
-      }
+      { "name": "luiza.moraes", "text": "🙂" },
+      { "name": "tulio.dias", "text": "Bora Terceirão #2!" }
     ]
   },
   {
@@ -47,10 +41,7 @@
     "date": "14 de junho de 2023",
     "dateISO": "2023-06-14",
     "comments": [
-      {
-        "name": "joarez.arq",
-        "text": "Precisando de reformas na sua casa? Não tenha dúvidas, contrate agora o Joarez Arquitetura e não se arrependa!"
-      }
+      { "name": "joarez.arq", "text": "Precisando de reformas na sua casa? Não tenha dúvidas, contrate agora o Joarez Arquitetura e não se arrependa!" }
     ]
   },
   {
@@ -60,10 +51,7 @@
     "date": "07 de janeiro de 2022",
     "dateISO": "2022-01-07",
     "comments": [
-      {
-        "name": "prof.kornelio",
-        "text": "Parabéns, Kalil! Seja bem-vindo à nossa família do Colégio Nostradamus."
-      }
+      { "name": "prof.kornelio", "text": "Parabéns, Kalil! Seja bem-vindo à nossa família do Colégio Nostradamus." }
     ]
   },
   {
@@ -73,10 +61,7 @@
     "date": "29 de novembro de 2022",
     "dateISO": "2022-11-29",
     "comments": [
-      {
-        "name": "enzzzo2006",
-        "text": "Nunca vai superar One Piece 😎"
-      }
+      { "name": "enzzzo2006", "text": "Nunca vai superar One Piece 😎" }
     ]
   }
 ]
