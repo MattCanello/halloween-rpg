@@ -1,5 +1,23 @@
 [
   {
+    "src": "../media/1006.png",
+    "alt": "Homem em selfie no banheiro escuro.",
+    "caption": "Nada fica impune",
+    "date": "29 de setembro de 2026",
+    "dateISO": "2026-09-29",
+    "comments": [
+    ]
+  },
+  {
+    "src": "../media/1005.png",
+    "alt": "Homem sentado em frente a uma janela.",
+    "caption": "A verdade não importa quando a história já foi escolhida.",
+    "date": "28 de maio de 2026",
+    "dateISO": "2026-05-28",
+    "comments": [
+    ]
+  },
+  {
     "src": "../media/1003.png",
     "alt": "Imagem com fundo preto e as palavras 'Nota de Repúdio' escritas em vermelho.",
     "caption": [
@@ -18,6 +36,15 @@
       { "name": "signor.janaina", "text": "Até parece que é o primeiro cheirador de pó desse colégio..." },
       { "name": "tulio.dias", "text": "Andou pegando novinha, fessor?! 🤣" },
       { "name": "ma.borges", "text": "Fofoca pela metade, professor???" }
+    ]
+  },
+  {
+    "src": "../media/1004.png",
+    "alt": "Pai dando um boneco de presente para a filha.",
+    "caption": "Não tem nenhum punhal dentro, eu conferi",
+    "date": "25 de dezembro de 2025",
+    "dateISO": "2025-12-25",
+    "comments": [
     ]
   },
   {
