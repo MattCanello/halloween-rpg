@@ -24,6 +24,26 @@
     "comments": []
   },
   {
+    "src": "../media/0011.png",
+    "alt": "Pessoa fazendo selfie no mercado.",
+    "caption": "Enquanto a faculdade não vem, as contas não esperam",
+    "date": "14 de julho de 2025",
+    "dateISO": "2025-06-14",
+    "comments": [
+    ]
+  },
+  {
+    "src": "../media/0010.png",
+    "alt": "Pessoa com as mãos no rosto em um ambiente escolar.",
+    "caption": "Ano que vem eu tento de novo",
+    "date": "22 de dezembro de 2024",
+    "dateISO": "2024-12-22",
+    "comments": [
+      { "name": "luiza.moraes", "text": "Tu consegue na próxima" },
+      { "name": "tulio.dias", "text": "Achei que fosse passar fácil" }
+    ]
+  },
+  {
     "src": "../media/0003.png",
     "alt": "Grupo de estudantes celebrando a passagem do ensino médio, radiantes e unidos.",
     "caption": "Do terceirão para a vida!",

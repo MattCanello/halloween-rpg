@@ -146,15 +146,28 @@
     ]
   },
   {
+    "src": "../media/2013.png",
+    "alt": "Duas pessoas posando em um lugar de dunas de areia sobre um buggy.",
+    "caption": "Sempre ao seu lado!",
+    "date": "13 de fevereiro de 2025",
+    "dateISO": "2025-02-13",
+    "comments": [
+      { "name": "kevin.klein", "text": "Tô na sua frente, no caso 🤣" },
+      { "name": "tulio.dias", "text": "Gatíssima como sempre" },
+      { "name": "caetano_rodrigues", "text": "Ah, se eu tivesse esse genética e essa grana toda!" },
+      { "name": "luiza.moraes", "text": "Sempre quis conhecer os lençóis! Parece lindo aí!" }
+    ]
+  },
+  {
     "src": "../media/2007.png",
     "alt": "Pessoa em vestido elegante para formatura, posando com confiança e glamour.",
     "caption": "Meu vestido para a formatura do ensino médio do Nostradamus ficou lindo, né? Pode dizer que eu arrasei, meninas! 😎",
     "date": "17 de dezembro de 2024",
     "dateISO": "2024-12-17",
     "comments": [
-      { "name": "luiza.moraes", "text": "Arrasou!" },
       { "name": "tulio.dias", "text": "Ui, ui, ui, que delícia!" },
       { "name": "bru_chavier", "text": "Qual é o segredo pra sair bem em todas as fotos?" },
+      { "name": "luiza.moraes", "text": "Arrasou!" },
       { "name": "cristina_borba", "text": "Gente rica é outra coisa, né..." }
     ]
   },
