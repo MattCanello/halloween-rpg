@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#10243b">
+	<meta name="description" content="Conheça o Colégio Nostradamus, uma instituição de educação básica em Porto Alegre, RS.">
+	<title>Colégio Nostradamus | Porto Alegre</title>
+	<style>
+		:root {
+			color-scheme: light;
+			--navy: #10243b;
+			--navy-deep: #091827;
+			--gold: #c3a76a;
+			--paper: #f5f3ed;
+			--white: #fff;
+			--ink: #202b36;
+			--muted: #536170;
+			--line: #d5d9dc;
+			--focus: #f2c96d;
+		}
+		* { box-sizing: border-box; }
+		html { scroll-behavior: smooth; }
+		body {
+			margin: 0;
+			background: var(--paper);
+			color: var(--ink);
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 1.0625rem;
+			line-height: 1.7;
+		}
+		a { color: #174b78; }
+		a:hover { color: #0a2b49; }
+		a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+		.skip-link {
+			position: absolute; z-index: 5; top: .75rem; left: .75rem;
+			padding: .7rem 1rem; transform: translateY(-160%);
+			background: var(--white); color: var(--navy-deep);
+		}
+		.skip-link:focus { transform: translateY(0); }
+		.site-header { background: var(--navy-deep); color: var(--white); border-bottom: 3px solid var(--gold); }
+		.header-inner, .section-inner, .footer-inner { width: min(1120px, calc(100% - 2.5rem)); margin-inline: auto; }
+		.header-inner { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+		.brand { display: inline-flex; align-items: center; gap: .85rem; color: var(--white); text-decoration: none; }
+		.crest { display: grid; place-items: center; width: 46px; height: 52px; border: 1px solid var(--gold); color: var(--gold); font-size: 1.35rem; }
+		.brand-name { display: block; font-size: 1.15rem; letter-spacing: .04em; }
+		.brand-city { display: block; color: #d4dce4; font: .72rem Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+		nav ul { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem 1.35rem; margin: 0; padding: 0; list-style: none; font: .9rem Arial, sans-serif; }
+		nav a { color: var(--white); text-decoration-thickness: 1px; text-underline-offset: .25em; }
+		.hero { position: relative; overflow: hidden; background: var(--navy); color: var(--white); }
+		.hero::after {
+			position: absolute; right: -8rem; bottom: -13rem; width: 36rem; height: 36rem;
+			border: 1px solid rgb(195 167 106 / 24%); border-radius: 50%;
+			box-shadow: 0 0 0 2.5rem rgb(195 167 106 / 5%), 0 0 0 5rem rgb(195 167 106 / 4%);
+			content: ""; pointer-events: none;
+		}
+		.hero-inner { position: relative; z-index: 1; width: min(1120px, calc(100% - 2.5rem)); min-height: 430px; margin-inline: auto; display: flex; align-items: center; padding-block: 5rem; }
+		.hero-copy { max-width: 690px; }
+		.eyebrow, .section-label { margin: 0 0 .6rem; font: 700 .78rem Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
+		.eyebrow { margin-bottom: 1rem; color: #e1c98f; }
+		h1, h2, h3 { line-height: 1.2; }
+		h1 { max-width: 14ch; margin: 0; font-size: clamp(2.5rem, 6vw, 4.75rem); font-weight: 400; }
+		.hero-copy > p:not(.eyebrow) { max-width: 58ch; margin: 1.5rem 0 0; color: #e3e9ef; font-size: 1.15rem; }
+		.button { display: inline-block; margin-top: 1.8rem; padding: .78rem 1.2rem; border: 1px solid var(--gold); background: var(--gold); color: var(--navy-deep); font: 700 .95rem Arial, sans-serif; text-decoration: none; }
+		.button:hover { background: #e0c889; color: var(--navy-deep); }
+		main section { padding-block: 4.5rem; }
+		.section-inner { max-width: 980px; }
+		.section-label { color: #395b78; }
+		h2 { margin: 0 0 1.2rem; color: var(--navy); font-size: clamp(1.9rem, 4vw, 2.7rem); font-weight: 400; }
+		h3 { margin: 0 0 .65rem; color: var(--navy); font-size: 1.3rem; }
+		p { margin: 0 0 1rem; }
+		.intro { max-width: 73ch; font-size: 1.12rem; }
+		.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 2.3rem; border: 1px solid var(--line); background: var(--line); }
+		.fact { min-height: 130px; padding: 1.3rem; background: #fbfaf7; }
+		.fact strong { display: block; margin-bottom: .25rem; color: var(--navy); font-size: 1.2rem; }
+		.fact span { color: var(--muted); font: .92rem Arial, sans-serif; }
+		.programs { background: #e9edf0; }
+		.card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-top: 2rem; }
+		.card { padding: 1.5rem; border-top: 3px solid var(--gold); background: var(--white); }
+		.card p { margin-bottom: 0; color: #384654; }
+		.admissions { background: var(--navy); color: var(--white); }
+		.admissions h2 { color: var(--white); }
+		.admissions .section-label { color: #e1c98f; }
+		.admissions-content { display: grid; grid-template-columns: 1.2fr .8fr; gap: 3rem; align-items: start; }
+		.admissions p, .steps { color: #e3e9ef; }
+		.steps { margin: 0; padding-left: 1.3rem; }
+		.steps li { padding: .25rem 0 .5rem .35rem; }
+		.visit { padding: 1.4rem; border: 1px solid #637487; }
+		.visit h3 { color: var(--white); }
+		.visit p { margin: 0; }
+		.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+		address { font-style: normal; }
+		address a { overflow-wrap: anywhere; }
+		.site-footer { padding-block: 1.5rem; background: var(--navy-deep); color: #e0e6ec; font: .88rem Arial, sans-serif; }
+		.footer-inner { display: flex; justify-content: space-between; gap: 1rem; }
+		.site-footer p { margin: 0; }
+		@media (max-width: 700px) {
+			.header-inner { align-items: flex-start; flex-direction: column; padding-block: 1rem; gap: 1rem; }
+			nav ul { justify-content: flex-start; gap: .5rem 1rem; }
+			.hero-inner { min-height: 390px; padding-block: 4rem; }
+			.facts, .card-grid, .admissions-content, .contact-grid { grid-template-columns: 1fr; }
+			.fact { min-height: 0; }
+			.admissions-content, .contact-grid { gap: 1.5rem; }
+			main section { padding-block: 3.25rem; }
+			.footer-inner { flex-direction: column; }
+		}
+		@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+	</style>
+</head>
+<body>
+	<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+	<header class="site-header">
+		<div class="header-inner">
+			<a class="brand" href="#inicio" aria-label="Colégio Nostradamus — página inicial">
+				<span class="crest" aria-hidden="true">N</span>
+				<span><span class="brand-name">Colégio Nostradamus</span><span class="brand-city">Porto Alegre · Rio Grande do Sul</span></span>
+			</a>
+			<nav aria-label="Navegação principal">
+				<ul>
+					<li><a href="#instituicao">A instituição</a></li>
+					<li><a href="#formacao">Formação</a></li>
+					<li><a href="#ingresso">Ingresso</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main id="conteudo">
+		<section class="hero" id="inicio" aria-labelledby="titulo-principal">
+			<div class="hero-inner"><div class="hero-copy">
+				<p class="eyebrow">Desde 1924 · Porto Alegre</p>
+				<h1 id="titulo-principal">Conhecimento que abre novos horizontes.</h1>
+				<p>Um projeto educativo que une rigor acadêmico, curiosidade e atenção ao percurso de cada estudante — em um espaço feito para aprender com profundidade.</p>
+				<a class="button" href="#instituicao">Conheça o colégio</a>
+			</div></div>
+		</section>
+		<section id="instituicao" aria-labelledby="titulo-instituicao">
+			<div class="section-inner">
+				<p class="section-label">Nossa instituição</p>
+				<h2 id="titulo-instituicao">Tradição com olhar para o futuro</h2>
+				<p class="intro">No bairro Moinhos de Vento, o Colégio Nostradamus oferece educação básica em uma comunidade de aprendizagem próxima e plural. Há quase um século, cultivamos o pensamento crítico, a autonomia e o compromisso com a vida em sociedade.</p>
+				<p>Nosso campus reúne salas de estudo, biblioteca, laboratórios e áreas verdes. A rotina combina investigação, convivência e experiências culturais, em um ambiente que valoriza a dedicação e o cuidado com cada etapa da formação.</p>
+				<div class="facts" aria-label="Informações sobre o colégio">
+					<div class="fact"><strong>Educação básica</strong><span>Ensino Fundamental e Ensino Médio</span></div>
+					<div class="fact"><strong>Porto Alegre, RS</strong><span>Uma comunidade ligada à cidade</span></div>
+					<div class="fact"><strong>Aprendizagem integral</strong><span>Estudo, cultura, ciência e convivência</span></div>
+				</div>
+			</div>
+		</section>
+		<section class="programs" id="formacao" aria-labelledby="titulo-formacao">
+			<div class="section-inner">
+				<p class="section-label">Uma formação ampla</p>
+				<h2 id="titulo-formacao">Aprender para compreender e transformar</h2>
+				<p class="intro">A proposta pedagógica articula conhecimento consistente, expressão e participação. Projetos interdisciplinares convidam os estudantes a fazer perguntas, construir respostas e compartilhar descobertas.</p>
+				<div class="card-grid">
+					<article class="card"><h3>Ciência e investigação</h3><p>Laboratórios e projetos de pesquisa aproximam conceitos de desafios do cotidiano e estimulam a observação cuidadosa.</p></article>
+					<article class="card"><h3>Artes e repertório</h3><p>Música, literatura e artes visuais ampliam formas de expressão e promovem o encontro com diferentes perspectivas.</p></article>
+					<article class="card"><h3>Cidadania e comunidade</h3><p>Iniciativas colaborativas incentivam responsabilidade, diálogo e participação consciente na vida coletiva.</p></article>
+				</div>
+			</div>
+		</section>
+		<section class="admissions" id="ingresso" aria-labelledby="titulo-ingresso">
+			<div class="section-inner">
+				<p class="section-label">Novas famílias</p>
+				<div class="admissions-content">
+					<div>
+						<h2 id="titulo-ingresso">Um percurso começa com uma conversa</h2>
+						<p>O processo de ingresso é organizado ao longo do ano, conforme a disponibilidade de vagas em cada etapa. A primeira visita permite conhecer os espaços, a proposta pedagógica e os caminhos possíveis para cada estudante.</p>
+						<ol class="steps"><li>Agendamento de uma conversa com a secretaria.</li><li>Visita orientada ao campus e apresentação da proposta.</li><li>Orientações sobre documentação e etapas de ingresso.</li></ol>
+					</div>
+					<aside class="visit" aria-labelledby="titulo-visita">
+						<h3 id="titulo-visita">Visitas ao campus</h3>
+						<p>As visitas são realizadas mediante agendamento. Nossa secretaria pode informar sobre calendário, disponibilidade e documentação necessária.</p>
+						<a class="button" href="mailto:secretaria@colegionostradamus.edu.br">Fale com a secretaria</a>
+					</aside>
+				</div>
+			</div>
+		</section>
+		<section id="contato" aria-labelledby="titulo-contato">
+			<div class="section-inner">
+				<p class="section-label">Estamos à disposição</p>
+				<h2 id="titulo-contato">Entre em contato</h2>
+				<div class="contact-grid">
+					<address><strong>Colégio Nostradamus</strong><br>Rua Padre Chagas, 742 — Moinhos de Vento<br>Porto Alegre — RS, 90570-080</address>
+					<p>Secretaria: <a href="tel:+555130305924">(51) 3030-5924</a><br><a href="mailto:secretaria@colegionostradamus.edu.br">secretaria@colegionostradamus.edu.br</a><br>Atendimento de segunda a sexta, das 8h às 17h.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="site-footer"><div class="footer-inner"><p>Colégio Nostradamus · Porto Alegre, RS</p><p>Educação, curiosidade e compromisso com o futuro.</p></div></footer>
+</body>
+</html>
