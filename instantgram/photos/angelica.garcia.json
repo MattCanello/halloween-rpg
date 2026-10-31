@@ -324,5 +324,77 @@
       { "name": "rafael_freitas", "text": "Você não precisa esconder nada para ser admirada." },
       { "name": "caio.martins", "text": "Que venham novas histórias, no seu tempo." }
     ]
+  },
+  {
+    "src": "../media/9005.png",
+    "alt": "Mulher vestindo jaqueta colorida em ambiente urbano, com uma placa de identificação e céu ao fundo.",
+    "caption": "Com melodia, alegria e barulho, eu sou feliz e rodo pelo mundo",
+    "date": "23 de julho de 2026",
+    "dateISO": "2026-07-23",
+    "comments": [
+      { "name": "martins.rodaika", "text": "Diva até no meio da rua!" },
+      { "name": "bia.ferraz", "text": "Com esse look, até a cidade vira palco." },
+      { "name": "leo.souza88", "text": "Essa legenda tem cara de refrão novo." },
+      { "name": "nanda.costa", "text": "Maravilhosa como sempre!" },
+      { "name": "rodrigo_melo", "text": "O mundo é pequeno para tanta música." },
+      { "name": "luiza_araujo", "text": "Amei a jaqueta e a maquiagem!" },
+      { "name": "rafael.nunes", "text": "A Avenida Ipiranga nunca teve tanto estilo." },
+      { "name": "marina.salles", "text": "Angélica, você é uma obra de arte ambulante." },
+
+      { "name": "tony.mendes", "text": "Mais uma foto produzida fingindo ser espontânea." },
+      { "name": "tais.moreira", "text": "Essa energia boa atravessa a tela." },
+      { "name": "felipebarros", "text": "Te escuto toda manhã e agora vou cantar essa legenda." },
+      { "name": "vini.cardoso", "text": "Essa foto parece capa de um disco dos anos 90." },
+      { "name": "isa_goncalves", "text": "O brinco de cruz azul é simplesmente perfeito." },
+      { "name": "renatoalves", "text": "A trilha sonora da cidade tem nome: Angélica." },
+      { "name": "carol.vieira", "text": "Essa jaqueta é tudo! De onde é?" },
+
+      { "name": "marina_azevedo", "text": "Essa combinação de cores ficou exagerada demais." },
+      { "name": "ju.siqueira", "text": "Que nunca faltem melodia e alegria na sua vida." },
+      { "name": "arthur.lemes", "text": "Rodo pelo mundo, mas sempre paro no sinal vermelho." },
+      { "name": "mateus.ramos", "text": "Se essa foto não virar capa de single, é desperdício." },
+      { "name": "caiof_m", "text": "A cidade inteira devia tocar sua música hoje." },
+      { "name": "mari.pontes", "text": "O cabelo bagunçado pelo vento ficou lindo." },
+      { "name": "thiago.azevedo", "text": "A liberdade combina demais com você." },
+
+      { "name": "guilherme.t", "text": "Só faltou uma legenda que não parecesse propaganda de rádio." },
+      { "name": "fernanda_luz", "text": "Sua voz faz meus trajetos pela cidade muito melhores." },
+      { "name": "leticia.moraes", "text": "A felicidade também precisa fazer barulho!" },
+      { "name": "marcos_viana", "text": "Essa frase daria uma ótima abertura de programa." },
+      { "name": "sofia.rangel", "text": "O azul dos olhos combinando com o céu ficou incrível." },
+      { "name": "bel.mendes", "text": "Minha radialista favorita conquistando as ruas." },
+      { "name": "eduardo_lima", "text": "Da rádio para o mundo, sem perder a essência." },
+      { "name": "camila.assis", "text": "Angélica, você não anda, você desfila!" },
+
+      { "name": "fernando_silveira", "text": "Prefiro suas músicas. Essas fotos de moda não me dizem muito." },
+      { "name": "diegomartins", "text": "O ângulo dessa foto ficou sensacional." },
+      { "name": "mafe.rocha", "text": "A maquiagem está simplesmente impecável." },
+      { "name": "renata.gomes", "text": "Queria ter metade dessa confiança para sair na rua." },
+      { "name": "bruna_freire", "text": "Você nasceu para colorir o mundo." },
+      { "name": "bia_sampaio", "text": "Já quero ouvir essa frase cantada por você." },
+      { "name": "rafa.lopes", "text": "Esse corta-vento tem muita personalidade." },
+
+      { "name": "leo.machado", "text": "A legenda é bonitinha, mas parece meio forçada." },
+      { "name": "carolinasf", "text": "O mundo é seu palco e a gente é plateia." },
+      { "name": "murilo.rosa", "text": "Essa foto tem uma estética de videoclipe retrô." },
+      { "name": "gabi.magalhaes", "text": "Esse delineado azul merece um tutorial urgente." },
+      { "name": "alexandre_c", "text": "Já passei por essa avenida ouvindo seu programa no rádio." },
+      { "name": "yasmin.duarte", "text": "Que a vida continue te levando para lugares lindos." },
+      { "name": "otaviofreitas", "text": "O rádio fica mais divertido com gente como você." },
+      { "name": "mari_oliveira", "text": "O look está gritando anos 80 e eu amei!" },
+
+      { "name": "ju.cavalcante", "text": "Essa maquiagem nos olhos é um pouco exagerada, né?" },
+      { "name": "paulo_ribeiro", "text": "Com melodia e barulho, só faltou falar do trânsito da Ipiranga." },
+      { "name": "luma.cardoso", "text": "Você faz a cidade parecer mais bonita." },
+      { "name": "gabriel_fernandes", "text": "A composição da foto está muito boa, especialmente a placa atrás." },
+      { "name": "carla.lemos", "text": "Essa mistura de cores tem muito a sua cara." },
+      { "name": "isa.pereira", "text": "Essa foto tem cheiro de liberdade e música boa." },
+      { "name": "roberta_m", "text": "Não entendi a relação da legenda com a foto, mas ficou bonita." },
+      { "name": "brenda.martins", "text": "O mundo precisa de mais gente fazendo barulho por alegria." },
+      { "name": "andre.moura", "text": "A foto ficou ótima. Só faltou um trecho de música tocando junto." },
+      { "name": "mauricio_r", "text": "Roda pelo mundo, mas não esquece de voltar para o estúdio!" },
+      { "name": "melissa.santos", "text": "Avenida Ipiranga virou cenário de editorial de moda." },
+      { "name": "caio.martins", "text": "Que venham mais viagens, canções e histórias para contar." }
+    ]
   }
 ]
